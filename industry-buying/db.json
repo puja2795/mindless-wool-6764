@@ -1,0 +1,16 @@
+{
+  "user": [
+    {
+      "id": "rinki",
+      "name": "Rinki Singh",
+      "password": "test",
+      "email": "rinki9414@gmail.com"
+    },
+    {
+      "id": "rinki2",
+      "name": "Rinki",
+      "password": "test2",
+      "email": "rinki414@gmail.com"
+    }
+  ]
+}
