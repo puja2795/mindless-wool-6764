@@ -1,0 +1,54 @@
+
+.main_container{
+   text-align: center;
+   display: flex;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+   background-image: linear-gradient(79deg,#f02f0d,#881205 70%, #000000);
+
+}
+
+.container{
+    height: 500px;
+    width: 350px;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+    border: 3px solid rgb(26, 42, 2);
+    border-radius: 10px;
+    background-color: rgb(239, 242, 245);
+}
+
+label{
+    text-align: left;
+    padding: 0.20rem 0;
+}
+
+input{
+    margin: 0.25rem 0;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: rgb(2, 12, 21);
+    font-size: 15px;
+    color: aliceblue;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.card_footer{
+    margin: 10px;
+}
+
+.link-btn{
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
