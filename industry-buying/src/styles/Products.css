@@ -1,0 +1,17 @@
+#main_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#product_container{
+   width:80%;
+   height: 1000px;
+   border: 1px solid  black;
+   text-align: left;
+}
+
+#sidebar{
+    width:20%;
+    height: 700px;
+    border: 1px solid  black;
+ }
