@@ -1,10 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { CartPage } from "../Components/CartFolder/CartPage";
+
 import PaymentPage from "../Components/CartFolder/PaymentPage";
 import { Products } from "../Components/ProductDisplay/Products";
+
 import { HomePage } from "./HomePage";
 import Login from "./Login";
+import { Products } from "./Products";
 import Register from "./Register";
 
 export default function MainRoutes() {
