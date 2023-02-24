@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { CartPage } from "../Components/CartFolder/CartPage";
+import { Admin } from "./Admin";
 
 import { HomePage } from "./HomePage";
 import Login from "./Login";
@@ -15,6 +16,8 @@ export default function MainRoutes() {
       <Route path="/register" element={<Register />}></Route>
       <Route path="/product" element={<Products />} />
       <Route path="/cart" element={<CartPage />} />
+      <Route path="/admin" element={<Admin />} />
+
     </Routes>
   );
 }
