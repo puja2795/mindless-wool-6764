@@ -18,6 +18,20 @@
       "password": "1234",
       "email": "pujarinisahoo95@gmail.com"
     }
+  ],
+  "cart":[
+    {
+      "title": "AgriPro 3 HP Butterfly Combined Rice Mill Machine without Motor APCRM6N9FC",
+      "price": "19,800",
+      "image": "https://static1.industrybuying.com/products/agriculture-garden-landscaping/grain-processing-machine/AGR.GRA.82125517_1670416542273.webp",
+      "by": "By AgriPro"
+    },
+    {
+      "title": "Fulcrum 3 HP Air Compressor 50 liters, TB3050BM",
+      "price": "10,900",
+      "image": "https://static1.industrybuying.com/products/pneumatics/air-compressors/air-tank-compressor/PNE.AIR.24347772_1668115052521.webp",
+      "by": "By Fulcrum"
+    }
   ]
 }  
   
