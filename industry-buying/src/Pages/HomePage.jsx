@@ -15,6 +15,9 @@ import {
 } from "@chakra-ui/react";
 import data from "../data.json";
 import { ProductCard } from "../Components/HomePageComponents/ProductCard";
+import Furniture from "../Components/HomePageComponents/Furniture";
+import Agriculture from "../Components/HomePageComponents/Agriculture";
+import Electrical from "../Components/HomePageComponents/Electrical";
 
 export const HomePage = () => {
   const carouselImages = [
@@ -204,7 +207,6 @@ export const HomePage = () => {
           style={{
             width: "100%",
             display: "flex",
-            border: "1px solid red",
             height: "auto",
           }}
         >
@@ -212,19 +214,122 @@ export const HomePage = () => {
             style={{
               width: "80%",
               display: "flex",
-              border: "1px solid red",
             }}
-          ></div>
+          >
+            <Furniture />
+          </div>
           <div
             style={{
               width: "20%",
               display: "flex",
-              border: "1px solid red",
             }}
           >
             {" "}
             <Image
               src="https://static3.industrybuying.com/homepage/1669293231image%20(5).png"
+              alt="industry"
+              width="100%"
+              height="100%"
+            />
+          </div>
+        </div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            padding: "5px",
+          }}
+        >
+          <div
+            style={{
+              width: "80%",
+            }}
+          >
+            <Heading as="h3" size="md" textAlign="left" marginTop="12px">
+              NEW ARRIVALS
+            </Heading>
+            {/* <Box w="100%"> */}
+            <Grid
+              templateColumns="repeat(4, 1fr)"
+              gap={1}
+              templateRows="repeat(2, 1fr)"
+              w="100%"
+              padding={2}
+            >
+              {data.arrivals.map((el) => {
+                return (
+                  <ProductCard
+                    el={el}
+                    boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px"
+                  />
+                );
+              })}
+            </Grid>
+            {/* </Box> */}
+          </div>
+          <div style={{ width: "20%" }}>
+            <Image
+              src="https://static3.industrybuying.com/homepage/1613556219Air-Compressor-Tank-217x467-Banner.png"
+              alt="industry"
+              marginBottom={4}
+              marginTop={10}
+            />
+          </div>
+        </div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            height: "auto",
+          }}
+        >
+          <div
+            style={{
+              width: "80%",
+              display: "flex",
+            }}
+          >
+            <Agriculture />
+          </div>
+          <div
+            style={{
+              width: "20%",
+              display: "flex",
+            }}
+          >
+            {" "}
+            <Image
+              src="https://static3.industrybuying.com/homepage/16620097331647327590Agriculture%20and%20garden-min.jpg"
+              alt="industry"
+              width="100%"
+              height="100%"
+            />
+          </div>
+        </div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            height: "auto",
+          }}
+        >
+          <div
+            style={{
+              width: "80%",
+              display: "flex",
+            }}
+          >
+            <Electrical />
+          </div>
+          <div
+            style={{
+              width: "20%",
+              display: "flex",
+            }}
+          >
+            {" "}
+            <Image
+              src="https://static3.industrybuying.com/homepage/1646812681Side%20Banner%20electrical.png"
               alt="industry"
               width="100%"
               height="100%"
