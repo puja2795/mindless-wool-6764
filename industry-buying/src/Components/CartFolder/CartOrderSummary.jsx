@@ -38,7 +38,7 @@ navigate('/paymentpage')
         <Heading size="md">Order Summary</Heading>
   
         <Stack spacing="6">
-          <OrderSummaryItem label="Subtotal" value={formatPrice(597)} />
+          <OrderSummaryItem label="Subtotal" value={formatPrice(57)} />
           <OrderSummaryItem label="Shipping + Tax">
             <Link href="#" textDecor="underline">
               Calculate shipping
@@ -55,7 +55,7 @@ navigate('/paymentpage')
             </Text>
             
             <Text fontSize="xl" fontWeight="extrabold">
-              {formatPrice(597)}
+              {formatPrice(57)}
             </Text>
           </Flex>
         </Stack>
