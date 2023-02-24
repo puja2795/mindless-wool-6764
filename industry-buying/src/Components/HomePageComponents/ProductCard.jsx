@@ -24,7 +24,7 @@ export const ProductCard = ({ el }) => {
         />
         <Stack mt="6" spacing="3">
           <Text align={"left"} fontSize="sm" lineHeight={1}>
-            {el.title}
+            {el.title.slice(0, 30)}
           </Text>
           <Text align={"left"} fontSize="sm" lineHeight={1}>
             {el.by}
