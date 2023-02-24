@@ -5,7 +5,6 @@ import { Admin } from "./Admin";
 
 import PaymentPage from "../Components/CartFolder/PaymentPage";
 
-
 import { HomePage } from "./HomePage";
 import Login from "./Login";
 import { Products } from "./Products";
@@ -18,7 +17,7 @@ export default function MainRoutes() {
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/login" element={<Login />}></Route>
       <Route path="/register" element={<Register />}></Route>
-      <Route path="/product" element={<Products />} />
+      {/* <Route path="/product" element={<Products />} /> */}
       <Route path="/cart" element={<CartPage />} />
 
       <Route path="/admin" element={<Admin />} />
