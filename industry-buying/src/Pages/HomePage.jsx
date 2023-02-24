@@ -158,7 +158,6 @@ export const HomePage = () => {
           <div
             style={{
               width: "80%",
-              border: "1px solid green",
               paddingRight: "10px",
             }}
           >
@@ -189,7 +188,7 @@ export const HomePage = () => {
             </Grid>
             {/* </Box> */}
           </div>
-          <div style={{ width: "20%", border: "1px solid green" }}>
+          <div style={{ width: "20%" }}>
             <Image
               src="https://static3.industrybuying.com/homepage/1676984146Domestic-Monoblock-Pump-side-bnr.png"
               alt="industry"
@@ -201,10 +200,39 @@ export const HomePage = () => {
             />
           </div>
         </div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            border: "1px solid red",
+            height: "auto",
+          }}
+        >
+          <div
+            style={{
+              width: "80%",
+              display: "flex",
+              border: "1px solid red",
+            }}
+          ></div>
+          <div
+            style={{
+              width: "20%",
+              display: "flex",
+              border: "1px solid red",
+            }}
+          >
+            {" "}
+            <Image
+              src="https://static3.industrybuying.com/homepage/1669293231image%20(5).png"
+              alt="industry"
+              width="100%"
+              height="100%"
+            />
+          </div>
+        </div>
       </div>
-      <div
-        style={{ width: "10%", border: "1px solid green", height: "100%" }}
-      ></div>
+      <div style={{ width: "10%", height: "100%" }}></div>
     </div>
   );
 };
