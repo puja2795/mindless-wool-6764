@@ -21,10 +21,9 @@ export default function MainRoutes() {
       {/* <Route path="/product" element={<Products />} /> */}
       <Route path="/cart" element={<CartPage />} />
 
+      <Route path="/paymentpage" element={<PaymentPage />} />
+
       <Route path="/admin" element={<Admin />} />
-
-
-      <Route path="/paymentpage" element={<PaymentPage/>}/>
 
     </Routes>
   );
