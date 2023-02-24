@@ -48,5 +48,103 @@
       "image": "https://static1.industrybuying.com/products/material-handling-and-packaging/platform-trolley/MAT.PLA.91518620_1667990365953.webp",
       "by": "By Fulcrum"
     }
+  ],
+  "furniture": [
+    {
+      "id": 1,
+      "image": "https://static3.industrybuying.com/homepage/1646996896Furniture-16_130x74.png",
+      "name": "Cabinate & side Boards",
+      "discount": "Various designs ate best peices"
+    },
+    {
+      "id": 2,
+      "image": "https://static3.industrybuying.com/homepage/1646996902Furniture-6_130x74.png",
+      "name": "Plastic Chairs",
+      "discount": "Up to 60% off"
+    },
+    {
+      "id": 3,
+      "image": "https://static3.industrybuying.com/homepage/1646996961Furniture-17_130x74.png",
+      "name": "Water Purifier",
+      "discount": "Upto 24% off"
+    },
+    {
+      "id": 4,
+      "image": "https://static3.industrybuying.com/homepage/1646996920Furniture-1_130x74.png",
+      "name": "Water Dispensers",
+      "discount": "Upto 25% off"
+    },
+    {
+      "id": 5,
+      "image": "https://static3.industrybuying.com/homepage/1646996927Furniture-11_130x74.png",
+      "name": "Food Service Storage and Transportation",
+      "discount": "Wide Range of Products"
+    },
+    {
+      "id": 6,
+      "image": "https://static3.industrybuying.com/homepage/1646996933Furniture-12_130x74.png",
+      "name": "Deep Freezer",
+      "discount": "starting from Rs. 14,500"
+    },
+    {
+      "id": 7,
+      "image": "https://static3.industrybuying.com/homepage/1646996940Furniture-15_130x74.png",
+      "name": "Cafe Chairs and Bar Stools",
+      "discount": "Multiple designs"
+    },
+    {
+      "id": 8,
+      "image": "https://static3.industrybuying.com/homepage/1646996982Furniture-9_130x74.png",
+      "name": "Juicer Mixer Grinder",
+      "discount": "Competitive prices"
+    },
+    {
+      "id": 9,
+      "image": "https://static3.industrybuying.com/homepage/1646997057sofa%20set.png",
+      "name": "Sofa Sets",
+      "discount": "Wide Range of Products"
+    },
+    {
+      "id": 10,
+      "image": "https://static3.industrybuying.com/homepage/1646996966Furniture-7_130x74.png",
+      "name": "Patio Furniture",
+      "discount": "Designs that matter"
+    },
+    {
+      "id": 11,
+      "image": "https://static3.industrybuying.com/homepage/1646996972Furniture-13_130x74.png",
+      "name": "Coffee Maker",
+      "discount": "Upto 50% off"
+    },
+    {
+      "id": 12,
+      "image": "https://static3.industrybuying.com/homepage/1646996977Furniture-8_130x74.png",
+      "name": "Kitchen Utilities",
+      "discount": "Everything you need"
+    },
+    {
+      "id": 13,
+      "image": "https://static3.industrybuying.com/homepage/1646996952Furniture-5_130x74.png",
+      "name": "Plastic Stools",
+      "discount": "Starting from Rs.200"
+    },
+    {
+      "id": 14,
+      "image": "https://static3.industrybuying.com/homepage/1646996989Furniture-2_130x74.png",
+      "name": "Trolley & Racks",
+      "discount": "Starting from Rs.500"
+    },
+    {
+      "id": 15,
+      "image": "https://static3.industrybuying.com/homepage/1646996914Furniture-14_130x74.png",
+      "name": "Chairs and Seating",
+      "discount": "upto 60% off"
+    },
+    {
+      "id": 16,
+      "image": "https://static3.industrybuying.com/homepage/1646996946Furniture-3_130x74.png",
+      "name": "Tables",
+      "discount": "upto 80% off"
+    }
   ]
 }
