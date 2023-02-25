@@ -5,12 +5,12 @@ import { Admin } from "./Admin";
 
 import PaymentPage from "../Components/CartFolder/PaymentPage";
 
-
 import { HomePage } from "./HomePage";
 import Login from "./Login";
 import { Products } from "./Products";
 
 import Register from "./Register";
+import { Dashboard } from "./Dashboard";
 
 export default function MainRoutes() {
   return (
@@ -24,7 +24,7 @@ export default function MainRoutes() {
       <Route path="/paymentpage" element={<PaymentPage />} />
 
       <Route path="/admin" element={<Admin />} />
-
+      <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
   );
 }
