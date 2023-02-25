@@ -24,6 +24,7 @@
       "password": "12345",
       "email": "pujarinisahoo95@gmail.com"
     }
+  
   ],
   "cart": [
     {
@@ -74,6 +75,14 @@
       "price": 13422,
       "description": "powerwash",
       "id": 5
+    }
+  ],
+  "admin": [
+    {
+      "id": "aaaaa",
+      "name": "asd",
+      "password": "bbb",
+      "email": "rinki9414@gmail.com"
     }
   ]
 }

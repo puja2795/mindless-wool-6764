@@ -10,7 +10,11 @@ import Login from "./Login";
 import { Products } from "./Products";
 
 import Register from "./Register";
+
 import { Dashboard } from "./Dashboard";
+
+import AdminLogin from "./AdminLogin";
+import AdminRegister from "./AdminRegister";
 
 export default function MainRoutes() {
   return (
@@ -23,8 +27,14 @@ export default function MainRoutes() {
 
       <Route path="/paymentpage" element={<PaymentPage />} />
 
-      <Route path="/admin" element={<Admin />} />
+
       <Route path="/dashboard" element={<Dashboard />} />
+
+      <Route path="/adminlogin" element={<AdminLogin />} />
+      <Route path="/adminregister" element={<AdminRegister />}/>
+
+      <Route path="/admin" element={<Admin/>} />
+
     </Routes>
   );
 }
