@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <ToastContainer theme="colored" position="top-right"></ToastContainer>
-      {/* <TempNavbar />
-      <MainRoutes /> */}
-      <Navbar/>
-      <Sidebar/>
+       <TempNavbar />
+      <MainRoutes /> 
+      {/* <Navbar/> */}
+      {/* <Sidebar/> */}
     </div>
   );
 }
