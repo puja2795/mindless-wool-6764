@@ -17,6 +17,12 @@
       "name": "Puja",
       "password": "1234",
       "email": "pujarinisahoo95@gmail.com"
+    },
+    {
+      "id": "puja123",
+      "name": "Pujarini",
+      "password": "12345",
+      "email": "pujarinisahoo95@gmail.com"
     }
   
   ],
@@ -55,6 +61,20 @@
       "price": 4000,
       "description": "ttttt",
       "id": 3
+    },
+    {
+      "image": "https://static1.industrybuying.com/products/agriculture-garden-landscaping/grain-processing-machine/AGR.GRA.82125517_1670416542273.webp",
+      "brand": "agri pro",
+      "price": 123654,
+      "description": "upto 60% off",
+      "id": 4
+    },
+    {
+      "image": "https://static1.industrybuying.com/products/pneumatics/air-compressors/air-tank-compressor/PNE.AIR.24347772_1668115052521.webp",
+      "brand": "AgriPro 3 HP Butterfly Combined Rice Mill Machine without Motor APCRM6N9FC",
+      "price": 13422,
+      "description": "powerwash",
+      "id": 5
     }
   ],
   "admin": [
