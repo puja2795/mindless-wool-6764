@@ -92,11 +92,11 @@ const Navbar = () => {
         <div className="butt2">
           <li className={`dropdown1 ${dropdownActive1 ? "active" : ""}`}>
             <a href="#" onClick={toggleDropdown1} className="button2">
-              Sing in <TriangleDownIcon />{" "}
+              Sign In <TriangleDownIcon />{" "}
             </a>
             <ul className="dropdown-content1">
               <li>
-                <a href="/login">Sing in </a>
+                <a href="/login">Sign In </a>
               </li>
               <li>
                 <a href="#">Pay Later</a>
@@ -117,7 +117,7 @@ const Navbar = () => {
                 <a href="/adminregister">Admin Register</a>
               </li>
               <li>
-                <a href="/adminlogin">Admin Sing in</a>
+                <a href="/adminlogin">Admin Sign in</a>
               </li>
             </ul>
           </li>
@@ -132,7 +132,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/cart">
                 <BsCart2 />
                 cart
               </a>
