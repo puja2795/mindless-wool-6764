@@ -318,14 +318,6 @@
       "discount": 30,
       "id": 2
     },
-    {
-      "category": "Saws & Chasers",
-      "name": "Ingco 85 W 1450 rpm Scroll Saw Machine SS852",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.103033292_1668045097002.webp",
-      "by": "Ingco",
-      "price": 6680,
-      "discount": 57,
-      "id": 3
-    }
+    
   ]
 }
