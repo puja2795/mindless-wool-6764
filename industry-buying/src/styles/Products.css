@@ -1,3 +1,7 @@
+#products_display{
+    margin-top:50px;
+}
+
 #main_container{
     display: flex;
     justify-content: space-between;
@@ -5,7 +9,7 @@
 
 #product_container{
    width:75%;
-   height: auto;
+   height:4000px;
    border: 0px solid  black;
    text-align: left;
    margin: auto;
@@ -17,6 +21,6 @@
 
 #sidebar{
     width:20%;
-    height: 900px;
+    height: 1000px;
     border: 1px solid  black;
  }

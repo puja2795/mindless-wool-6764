@@ -6,42 +6,64 @@
 
 .cate_heading{
     margin-top: 20px;
+    font-style: normal;
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 600;
+    padding: 10px;
+    background-color: cadetblue;
+    border: 2px  solid black;
 }
 
 #sort_cate{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: left;
-    border:1px solid  black;
+    justify-content: left;
+    align-items: left; */
+    border:0px solid  black;
     width: 70%;
     margin-top: 10px; 
 }
 
 #sort_manufacturer{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: left;
-    border:1px solid  black;
+    align-items: left; */
+    border:0px solid  black;
     width: 70%;
     margin-top: 10px; 
 }
 
 #price{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left; 
-    border:1px solid  black;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: left; */
+    /* align-items: left;  */
+    border:0px solid  black;
     width: 70%;
     margin-top: 10px; 
 }
 
-#discount{
+.tags{
     display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.tags input{
+    width: 15px;
+    height: 15px;
+}
+
+.tags label{
+    font-size: 16px;
+}
+
+#discount{
+    /* display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: left; */
     align-items: left; 
-    border:1px solid  black;
+    border:0px solid  black;
     width: 70%; 
     margin-top: 10px; 
 }

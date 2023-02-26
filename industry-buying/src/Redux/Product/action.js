@@ -17,11 +17,11 @@ export const productFailureAction = () => {
 }
 
 
-export const getData = () => (dispatch) => {
+export const getData = (param) => (dispatch) => {
     dispatch(productRequestAction());
 
     axios
-      .get(`http://localhost:8080/powertools`)
+      .get(`http://localhost:8080/powertools`,param)
       .then((res) => {
         // console.log(res.data);
         dispatch(productSuccessAction(res.data));

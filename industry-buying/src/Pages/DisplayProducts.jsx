@@ -1,13 +1,16 @@
 import React from 'react';
 import { Box, Image, Text, Button } from '@chakra-ui/react';
-import "../styles/Products.css";
-
+import "../styles/DisplayProduct.css";
+import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { handleCart } from '../Redux/Product/action';
+import { useToast } from '@chakra-ui/react'
 
 
 
 const DisplayProducts = ({id, category, name, image,by, price, discount}) => {
+
+  const toast = useToast();
 
   const CartInitialState = {
     category: category,
@@ -19,26 +22,38 @@ const DisplayProducts = ({id, category, name, image,by, price, discount}) => {
   }
 
  const dispatch = useDispatch();
+ const navigate = useNavigate();
 
   const handleClick = () => {
     dispatch(handleCart(id,CartInitialState))
-
+  
+    toast({
+      title: 'Item Added.',
+      description: "Your Item has been added to Cart.",
+      status: 'success',
+      duration: 3000,
+      isClosable: true,
+    })
   }
-  //console.log("add to cart")
+  
+  const HandleBuy = () => {
+    console.log('Buy')
+     navigate('/Paymentpage')
+  }
    
 
 
   return (
-    <Box style={{border:"1px solid green", width:"300px",padding:"30px"}}>
-        <Image  src={image} alt={name} width="100px" height="100px" />
-        <Text> Category: {category} </Text>
-        <Text> {name} </Text>
-        <Text> By: {by} </Text>
-        <Text> Price: { `RS.` +  price} </Text>
-        <Text>Discount: {discount + `%`} </Text>
-        <Box style={{display: "flex",justifyContent:"space-around", alignItems:"center", marginTop:"10px",gap:"20px"}}>
-            <Button id='cart_btn' onClick={handleClick}>ADD to Cart</Button>
-            <Button id='buy_btn'>Buy Now</Button>
+    <Box id="item_container">
+        <Image className="item_image" src={image} alt={name}  />
+        <Text className='item_category'> <span>Category:</span>  {category} </Text>
+        <Text className='item_name'> {name} </Text>
+        <Text className='item_by'> <span> By:</span> {by} </Text>
+        <Text className='item_price'> <span>Price:</span>  { `Rs `+ price } </Text>
+        <Text className='item_discount'> <span> Discount:</span> {discount + `%`} </Text>
+        <Box className='add_buy_btn'>
+            <Button className='cart_btn' onClick={handleClick}>ADD to Cart</Button>
+            <Button className='buy_btn' onClick={HandleBuy}>Buy Now</Button>
         </Box>
     </Box>
   )

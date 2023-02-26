@@ -24,9 +24,7 @@
       "password": "12345",
       "email": "pujarinisahoo95@gmail.com"
     }
-  
   ],
- 
   "admin": [
     {
       "id": "aaaaa",
@@ -35,8 +33,6 @@
       "email": "rinki9414@gmail.com"
     }
   ],
-
-
   "powertools": [
     {
       "id": 1,
@@ -309,7 +305,6 @@
       "id": 31
     }
   ],
-  
   "cart": [
     {
       "category": "Saws & Chasers",
@@ -328,8 +323,51 @@
       "price": 7780,
       "discount": 2,
       "id": 2
+    },
+    {
+      "category": "Sanders & Polishers",
+      "name": "Akari 500 W Electric Planer EP-82",
+      "image": "https://static1.industrybuying.com/products/power-tools/electric-planer/POW.ELE.87417982_1669636305053.webp",
+      "by": "AKARI",
+      "price": 2480,
+      "discount": 0,
+      "id": 3
+    },
+    {
+      "category": "Saws & Chasers",
+      "name": "Omada 8-Inch Small Tree Cutting Cordless Chainsaw",
+      "image": "https://static1.industrybuying.com/products/power-tools/chain-saw/POW.CHA.97138197_1668385553483.webp",
+      "by": "Omada",
+      "price": 8990,
+      "discount": 30,
+      "id": 4
+    },
+    {
+      "category": "Saws",
+      "name": "Ingco COS223589 2200W 3700 rpm Cut Off Saw with 355mm Cutting DiscbyIngco",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.27648414_1671707413975.webp",
+      "by": "Ingco",
+      "price": 7990,
+      "discount": 23,
+      "id": 5
+    },
+    {
+      "category": "Saws & Chasers",
+      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
+      "by": "Makita",
+      "price": 43800,
+      "discount": 20,
+      "id": 6
+    },
+    {
+      "category": "Saws & Chasers",
+      "name": "Ingco 85 W 1450 rpm Scroll Saw Machine SS852",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.103033292_1668045097002.webp",
+      "by": "Ingco",
+      "price": 6680,
+      "discount": 57,
+      "id": 7
     }
   ]
-
-
 }

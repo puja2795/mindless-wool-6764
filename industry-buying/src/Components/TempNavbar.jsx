@@ -2,9 +2,14 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import styled from "styled-components";
 
+
+
 const TempNavbar = () => {
+
+  
   return (
     <LinkWrapper>
+  
       <Link to="/">HomePage</Link>
       <Link to="/product">Products</Link>
       <Link to="/login">Login</Link>
