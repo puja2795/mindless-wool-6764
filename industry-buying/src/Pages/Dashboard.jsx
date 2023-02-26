@@ -1,18 +1,30 @@
-import { Grid, Heading } from "@chakra-ui/react";
+import { Grid, Heading, useDisclosure } from "@chakra-ui/react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { AdminProductData } from "../Components/AdminProductData";
-import { getProduct } from "../Redux/Admin/action";
-import { store } from "../Redux/store";
+import { checkAdmin } from "../Redux/Auth/action";
+import { getData } from "../Redux/Product/action";
 
 export const Dashboard = () => {
-  const [adminData, setAdminData] = useState([]);
+  // const [adminData, setAdminData] = useState([]);
+  const navigate = useNavigate();
   const dispatch = useDispatch();
-  useEffect(() => {
+  const adminData = useSelector((store) => {
+    return store.productReducer.products;
+  });
+
+  const handleDelete = (id) => {
     axios
-      .get("http://localhost:8000/powertools")
-      .then((res) => setAdminData(res.data));
+      .delete(`http://localhost:8080/powertools/${id}`)
+      .then(alert("Product Deleted"));
+    window.location.reload();
+  };
+
+  useEffect(() => {
+    dispatch(checkAdmin(true));
+    dispatch(getData());
   }, []);
 
   return (
@@ -38,7 +50,13 @@ export const Dashboard = () => {
       >
         <Grid templateColumns="repeat(4, 1fr)" gap={4}>
           {adminData.map((el) => {
-            return <AdminProductData key={el.id} el={el} />;
+            return (
+              <AdminProductData
+                key={el.id}
+                el={el}
+                handleDelete={handleDelete}
+              />
+            );
           })}
         </Grid>
       </div>

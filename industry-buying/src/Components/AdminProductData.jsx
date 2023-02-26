@@ -10,9 +10,10 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
+import axios from "axios";
 import { Link } from "react-router-dom";
 
-export const AdminProductData = ({ el }) => {
+export const AdminProductData = ({ el, handleDelete }) => {
   return (
     <Card>
       <CardBody>
@@ -44,7 +45,11 @@ export const AdminProductData = ({ el }) => {
               Edit
             </Button>
           </Link>
-          <Button colorScheme="red" size="sm">
+          <Button
+            colorScheme="red"
+            size="sm"
+            onClick={() => handleDelete(el.id)}
+          >
             Delete
           </Button>
         </ButtonGroup>

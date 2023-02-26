@@ -1,5 +1,38 @@
 .App {
   text-align: center;
+
+}
+.container {
+  display: flex;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+}
+.footer{
+  display: block;
+  position: fixed;
+  bottom: 0;
+width: 100%;
+}
+
+.sidebar {
+  color: #333;
+  width: 30%;
+  position: fixed;
+  top: 90px;
+  border: 1px solid #333;
+  text-align: left; /* set the top property to the height of the navbar */
+}
+.sidebar ul li{
+  margin-left: 20px;
+}
+
+.content {
+  width: 70%;
+  margin-left: 30%; /* add a margin to the content to account for the width of the sidebar */
 }
 
 .App-logo {

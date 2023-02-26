@@ -1,4 +1,5 @@
 import {
+  EDIT_PRODUCT_SUCCESS,
   GET_PRODUCT_SUCCESS,
   POST_PRODUCT_SUCCESS,
   PRODUCT_FAILURE,
@@ -18,6 +19,12 @@ export const postProducctSuccess = () => {
   };
 };
 
+export const editProductSuccess = () => {
+  return {
+    type: EDIT_PRODUCT_SUCCESS,
+  };
+};
+
 export const productRequest = () => {
   return {
     type: PRODUCT_REQUEST,
@@ -34,7 +41,7 @@ export const addProduct = (payload) => (dispatch) => {
   dispatch(productRequest());
 
   axios
-    .post("http://localhost:8000/powertools", payload)
+    .post("http://localhost:8080/powertools", payload)
     .then(() => {
       dispatch(postProducctSuccess());
     })
@@ -47,11 +54,15 @@ export const getProduct = () => (dispatch) => {
   dispatch(productRequest());
 
   axios
-    .post("http://localhost:8000/powertools")
+    .get("http://localhost:8080/powertools")
     .then((res) => {
       dispatch(getProducctSuccess(res.data));
     })
     .catch((err) => {
       dispatch(productFailure());
     });
+};
+
+export const editProduct = (id, data) => (dispatch) => {
+  dispatch(productRequest());
 };

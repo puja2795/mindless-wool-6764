@@ -23,6 +23,12 @@
       "name": "Pujarini",
       "password": "12345",
       "email": "pujarinisahoo95@gmail.com"
+    },
+    {
+      "id": "abhishek12",
+      "name": "Abhishek",
+      "password": "12345",
+      "email": "abhishek@gmail.com"
     }
   ],
   "admin": [
@@ -31,36 +37,15 @@
       "name": "asd",
       "password": "bbb",
       "email": "rinki9414@gmail.com"
+    },
+    {
+      "id": "puja1234",
+      "name": "Puja",
+      "password": "1234",
+      "email": "pujarinisahoo95@gmail.com"
     }
   ],
   "powertools": [
-    {
-      "id": 1,
-      "category": "Saws & Chasers",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
-      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
-      "by": "Makita",
-      "price": 43800,
-      "discount": 20
-    },
-    {
-      "id": 2,
-      "category": "Saws & Chasers",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.85261020_1668167865639.webp",
-      "name": "Ingco 4500 RPM Table Saw TS15007",
-      "by": "Ingco",
-      "price": 16800,
-      "discount": 30
-    },
-    {
-      "id": 3,
-      "category": "Saws & Chasers",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.103033292_1668045097002.webp",
-      "name": "Ingco 85 W 1450 rpm Scroll Saw Machine SS852",
-      "by": "Ingco",
-      "price": 6680,
-      "discount": 57
-    },
     {
       "id": 4,
       "category": "Saws & Chasers",
@@ -68,7 +53,7 @@
       "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
       "by": "Voltz",
       "price": 7780,
-      "discount": 2
+      "discount": "20"
     },
     {
       "id": 5,
@@ -85,7 +70,7 @@
       "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.83175023_1668054154698.webp",
       "name": "Ingco 220-240V 900-3300 RPM Reciprocating Saw RS8008",
       "by": "Xtra Power",
-      "price": 3380,
+      "price": "3560",
       "discount": 60
     },
     {
@@ -95,7 +80,7 @@
       "name": "Yato Band Saw 1100 W YT-82185",
       "by": "Yato",
       "price": 21800,
-      "discount": 13
+      "discount": "25"
     },
     {
       "id": 8,
@@ -120,7 +105,7 @@
       "category": "Saws & Chasers",
       "image": "https://static1.industrybuying.com/products/power-tools/miter-saw/POW.MIT.27632217_1671596525517.webp",
       "name": "VOLTZ M1YD-ZB-254 180W Wood Table Saw (Armeture)",
-      "by": "Voltz",
+      "by": "Voltza",
       "price": 3380,
       "discount": 50
     },
@@ -150,15 +135,6 @@
       "by": "HiKOKI",
       "price": 16880,
       "discount": 40
-    },
-    {
-      "id": 14,
-      "category": "Electric Hammers ",
-      "imagge": "https://static1.industrybuying.com/products/power-tools/demolition-hammers/POW.DEM.67390663_1669028647179.webp",
-      "name": "Yiking 3380-B 17 mm Demolition Hammer",
-      "by": "YIKING",
-      "price": 5840,
-      "discount": 35
     },
     {
       "id": 15,
@@ -303,71 +279,45 @@
       "price": 19800,
       "discount": "20",
       "id": 31
+    },
+    {
+      "category": "Electric Hammers",
+      "image": "https://static1.industrybuying.com/products/power-tools/miter-saw/POW.MIT.82065711_1668009715087.webp",
+      "name": "PowerHouse 255 mm Mitre Saw 2200W PHMS255 with 6 Months Warranty",
+      "by": "POWERWASH",
+      "price": 4480,
+      "discount": "20",
+      "id": 32
+    },
+    {
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/agriculture-garden-landscaping/tillers-and-cultivator/tillers/AGR.TIL.41517227_1667990253322.webp",
+      "name": "AgriPro Mini Power Tiller APMT52",
+      "by": "AgriPro",
+      "price": 9990,
+      "discount": "30",
+      "id": 33
+    },
+    {
+      "category": "Drilling Machine",
+      "image": "https://static3.industrybuying.com/homepage/1646996966Furniture-7_130x74.png",
+      "name": "Miniature Circuit Breakers",
+      "by": "AgriPro",
+      "price": 5689,
+      "discount": "35",
+      "id": 34
     }
   ],
   "cart": [
     {
       "category": "Saws & Chasers",
-      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
-      "by": "Makita",
-      "price": 43800,
-      "discount": 20,
-      "id": 1
-    },
-    {
-      "category": "Saws & Chasers",
-      "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
-      "by": "Voltz",
-      "price": 7780,
-      "discount": 2,
+      "name": "Ingco 4500 RPM Table Saw TS15007",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.85261020_1668167865639.webp",
+      "by": "Ingco",
+      "price": 16800,
+      "discount": 30,
       "id": 2
     },
-    {
-      "category": "Sanders & Polishers",
-      "name": "Akari 500 W Electric Planer EP-82",
-      "image": "https://static1.industrybuying.com/products/power-tools/electric-planer/POW.ELE.87417982_1669636305053.webp",
-      "by": "AKARI",
-      "price": 2480,
-      "discount": 0,
-      "id": 3
-    },
-    {
-      "category": "Saws & Chasers",
-      "name": "Omada 8-Inch Small Tree Cutting Cordless Chainsaw",
-      "image": "https://static1.industrybuying.com/products/power-tools/chain-saw/POW.CHA.97138197_1668385553483.webp",
-      "by": "Omada",
-      "price": 8990,
-      "discount": 30,
-      "id": 4
-    },
-    {
-      "category": "Saws",
-      "name": "Ingco COS223589 2200W 3700 rpm Cut Off Saw with 355mm Cutting DiscbyIngco",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.27648414_1671707413975.webp",
-      "by": "Ingco",
-      "price": 7990,
-      "discount": 23,
-      "id": 5
-    },
-    {
-      "category": "Saws & Chasers",
-      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
-      "by": "Makita",
-      "price": 43800,
-      "discount": 20,
-      "id": 6
-    },
-    {
-      "category": "Saws & Chasers",
-      "name": "Ingco 85 W 1450 rpm Scroll Saw Machine SS852",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.103033292_1668045097002.webp",
-      "by": "Ingco",
-      "price": 6680,
-      "discount": 57,
-      "id": 7
-    }
+    
   ]
 }

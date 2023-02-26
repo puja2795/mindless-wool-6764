@@ -1,20 +1,25 @@
 import axios from "axios";
-import { GET_PPRODUCTS_FAILURE, GET_PPRODUCTS_REQUEST, GET_PPRODUCTS_SUCCESS, POST_PPRODUCTS_CART_FAILURE, POST_PPRODUCTS_CART_REQUEST, POST_PPRODUCTS_CART_SUCCESS } from "./actionType"
-
-
+import {
+  GET_PPRODUCTS_FAILURE,
+  GET_PPRODUCTS_REQUEST,
+  GET_PPRODUCTS_SUCCESS,
+  POST_PPRODUCTS_CART_FAILURE,
+  POST_PPRODUCTS_CART_REQUEST,
+  POST_PPRODUCTS_CART_SUCCESS,
+  DELETE_ITEM_SUCCESS,
+} from "./actionType";
 
 export const productRequestAction = () => {
-    return {type : GET_PPRODUCTS_REQUEST};
-}
+  return { type: GET_PPRODUCTS_REQUEST };
+};
 
 export const productSuccessAction = (payload) => {
-
-    return { type: GET_PPRODUCTS_SUCCESS, payload: payload }
-}
+  return { type: GET_PPRODUCTS_SUCCESS, payload: payload };
+};
 
 export const productFailureAction = () => {
-    return { type: GET_PPRODUCTS_FAILURE };
-}
+  return { type: GET_PPRODUCTS_FAILURE };
+};
 
 
 export const getData = (param) => (dispatch) => {
@@ -68,3 +73,20 @@ export const getData = (param) => (dispatch) => {
           console.log(err);
         })
       }
+
+
+
+
+
+
+export const deleteItem = (id) => (dispatch) => {
+  axios
+    .delete(`http://localhost:8080/powertools/${id}`)
+    .then(() => {
+      dispatch(deleteItemAction(id));
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
+
