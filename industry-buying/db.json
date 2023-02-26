@@ -23,6 +23,12 @@
       "name": "Pujarini",
       "password": "12345",
       "email": "pujarinisahoo95@gmail.com"
+    },
+    {
+      "id": "abhishek12",
+      "name": "Abhishek",
+      "password": "12345",
+      "email": "abhishek@gmail.com"
     }
   ],
   "admin": [
@@ -31,6 +37,12 @@
       "name": "asd",
       "password": "bbb",
       "email": "rinki9414@gmail.com"
+    },
+    {
+      "id": "puja1234",
+      "name": "Puja",
+      "password": "1234",
+      "email": "pujarinisahoo95@gmail.com"
     }
   ],
   "powertools": [
@@ -267,6 +279,33 @@
       "price": 19800,
       "discount": "20",
       "id": 31
+    },
+    {
+      "category": "Electric Hammers",
+      "image": "https://static1.industrybuying.com/products/power-tools/miter-saw/POW.MIT.82065711_1668009715087.webp",
+      "name": "PowerHouse 255 mm Mitre Saw 2200W PHMS255 with 6 Months Warranty",
+      "by": "POWERWASH",
+      "price": 4480,
+      "discount": "20",
+      "id": 32
+    },
+    {
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/agriculture-garden-landscaping/tillers-and-cultivator/tillers/AGR.TIL.41517227_1667990253322.webp",
+      "name": "AgriPro Mini Power Tiller APMT52",
+      "by": "AgriPro",
+      "price": 9990,
+      "discount": "30",
+      "id": 33
+    },
+    {
+      "category": "Drilling Machine",
+      "image": "https://static3.industrybuying.com/homepage/1646996966Furniture-7_130x74.png",
+      "name": "Miniature Circuit Breakers",
+      "by": "AgriPro",
+      "price": 5689,
+      "discount": "35",
+      "id": 34
     }
   ],
   "cart": [

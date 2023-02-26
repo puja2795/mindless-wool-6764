@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Home.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -18,8 +18,15 @@ import { ProductCard } from "../Components/HomePageComponents/ProductCard";
 import Furniture from "../Components/HomePageComponents/Furniture";
 import Agriculture from "../Components/HomePageComponents/Agriculture";
 import Electrical from "../Components/HomePageComponents/Electrical";
+import { useDispatch } from "react-redux";
+import { checkAdmin } from "../Redux/Auth/action";
 
 export const HomePage = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(checkAdmin(false));
+  }, []);
+
   const carouselImages = [
     "https://static3.industrybuying.com/homepage/1676984498symphony-desktop.png",
     "https://static3.industrybuying.com/homepage/1676984766vaccum-cleaner-desktop.png",
@@ -54,10 +61,75 @@ export const HomePage = () => {
         display: "flex",
       }}
     >
-      <div style={{ width: "20%", height: "100%" }}></div>
+      <div style={{ width: "15%", height: "100%" }}>
+        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+          <Image
+            src="https://static3.industrybuying.com/homepage/1651570531side-bnr-3.png"
+            alt="industry"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+          <Image
+            src="https://static3.industrybuying.com/homepage/1651040050side-bnr-tyre.png"
+            alt="industry"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+          <Image
+            src="https://static3.industrybuying.com/homepage/1617427548hpbanner-217x467-BendingMachine.png"
+            alt="industry"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+          <Image
+            src="https://static3.industrybuying.com/homepage/1617361767hpbanner-217X467-Pumps.png"
+            alt="industry"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+          <Image
+            src="https://static3.industrybuying.com/homepage/1613547141hpbanner-217x467-Demolition-Hammers.png"
+            alt="industry"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+          <Image
+            src="https://static3.industrybuying.com/homepage/1613556219Air-Compressor-Tank-217x467-Banner.png"
+            alt="industry"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+          <Image
+            src="https://static3.industrybuying.com/homepage/1649305297safety.jpg"
+            alt="industry"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+          <Image
+            src="https://static3.industrybuying.com/homepage/1651570414side-bnr-2.png"
+            alt="industry"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </div>
       <div
         style={{
-          width: "70%",
+          width: "80%",
           height: "310px",
         }}
       >
@@ -337,7 +409,7 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
-      <div style={{ width: "10%", height: "100%" }}></div>
+      <div style={{ width: "5%", height: "100%" }}></div>
     </div>
   );
 };
