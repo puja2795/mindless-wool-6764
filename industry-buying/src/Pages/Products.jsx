@@ -1,16 +1,12 @@
 import React, { useEffect } from "react";
-import { Box } from "@chakra-ui/react";
-import styled from "styled-components";
 import "../styles/Products.css";
+import styled from "styled-components";
 import BreadCrum from "../Components/ProductDisplay/BreadCrum";
 import { useDispatch, useSelector } from "react-redux";
-import axios from "axios";
-import {
-  productFailureAction,
-  productRequestAction,
-  productSuccessAction,
-} from "../Redux/Product/action";
+import { getData } from "../Redux/Product/action";
 import { DisplayProducts } from "./DisplayProducts";
+import { ProductSideBar } from "../Components/Products/ProductSideBar";
+import { Box } from "@chakra-ui/react";
 
 const Products = () => {
   const prod = useSelector((store) => {
@@ -20,29 +16,22 @@ const Products = () => {
 
   const dispatch = useDispatch();
 
-  const getData = () => {
-    dispatch(productRequestAction());
-
-    axios
-      .get(`http://localhost:8080/powertools`)
-      .then((res) => {
-        // console.log(res.data);
-        dispatch(productSuccessAction(res.data));
-      })
-      .catch((err) => {
-        // console.log(err);
-        dispatch(productFailureAction());
-      });
-  };
+  
 
   useEffect(() => {
-    getData();
+    dispatch(getData());
   }, []);
 
   return (
     <div>
       <Box id="main_container">
-        <Box id="sidebar"></Box>
+
+        <Box id="sidebar">
+          <ProductSideBar />
+        </Box>
+
+
+
         <Box id="product_container">
           <BreadCrum />
           <h1>PowerTools</h1>

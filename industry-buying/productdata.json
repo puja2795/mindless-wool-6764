@@ -191,7 +191,7 @@
     },
     {
       "id": 22,
-      "category": "Magnetic Core Drilling Machine",
+      "category": "Drilling Machine",
       "image": "https://static1.industrybuying.com/products/power-tools/magnetic-core-drilling-machine/POW.MAG.107638336_1671621710094.webp",
       "name": "Eibenstock 1050 W Magnetic Core Drilling Machine",
       "by": "Eibenstock",
@@ -200,7 +200,7 @@
     },
     {
       "id": 23,
-      "category": "Magnetic Core Drilling Machine",
+      "category": "Drilling Machine",
       "image": "https://static1.industrybuying.com/products/power-tools/magnetic-core-drilling-machine/POW.MAG.77638371_1671621666797.webp",
       "name": "Eibenstock 110 W Magnetic Drill Rig - B 32.1",
       "by": "Eibenstock",
@@ -227,7 +227,7 @@
     },
     {
       "id": 27,
-      "category": "Sander Polisher",
+      "category": "Sander & Polisher",
       "image": "https://static1.industrybuying.com/products/cleaning/vacuum-cleaners-accessories/vacuum-cleaners/PO.DU.489233_1667877145964.webp",
       "name": "Hitachi Disc Sander S15SBbyHitachi",
       "by": "Hitachi",
@@ -236,7 +236,7 @@
     },
     {
       "id": 28,
-      "category": "Sander Polisher",
+      "category": "Sander & Polisher",
       "image": "https://static1.industrybuying.com/products/pneumatics/pneumatic-tool/sanders/PN.PN.SA.555669_1667884838276.webp",
       "name": "Hitachi - Koki SV13YA Orbital Sander (Horse Power 230W,",
       "by": "Hitachi",
@@ -269,12 +269,26 @@
       "price": 19800,
       "discount": "20",
       "id": 31
+    }
+  ],
+  "cart": [
+    {
+      "category": "Saws & Chasers",
+      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
+      "by": "Makita",
+      "price": 43800,
+      "discount": 20,
+      "id": 1
     },
     {
-      "id": 32
-    },
-    {
-      "id": 33
+      "category": "Saws & Chasers",
+      "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
+      "by": "Voltz",
+      "price": 7780,
+      "discount": 2,
+      "id": 2
     }
   ]
 }

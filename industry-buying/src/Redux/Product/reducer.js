@@ -1,8 +1,9 @@
-import { GET_PPRODUCTS_FAILURE, GET_PPRODUCTS_REQUEST, GET_PPRODUCTS_SUCCESS } from "./actionType";
+import { GET_PPRODUCTS_FAILURE, GET_PPRODUCTS_REQUEST, GET_PPRODUCTS_SUCCESS, POST_PPRODUCTS_CART_FAILURE, POST_PPRODUCTS_CART_REQUEST, POST_PPRODUCTS_CART_SUCCESS } from "./actionType";
 
 
 const initialState = {
     products: [],
+    cart:[],
     isLoading: false,
     isError: false,
 }
@@ -21,6 +22,19 @@ export const reducer = (state = initialState, {type, payload}) => {
 
         case GET_PPRODUCTS_FAILURE:{
             return {...state, isLoading: false, isError: true};
+        }
+
+        case POST_PPRODUCTS_CART_REQUEST: {
+            return {...state}
+        }
+
+        case POST_PPRODUCTS_CART_SUCCESS: {
+
+            return {...state, cart: payload }
+        }
+
+        case POST_PPRODUCTS_CART_FAILURE: {
+            return {...state}
         }
 
         default:{
