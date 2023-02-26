@@ -103,14 +103,14 @@ export const HomePage = () => {
             height="100%"
           />
         </div>
-        <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
+        {/* <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
           <Image
             src="https://static3.industrybuying.com/homepage/1613556219Air-Compressor-Tank-217x467-Banner.png"
             alt="industry"
             width="100%"
             height="100%"
           />
-        </div>
+        </div> */}
         <div style={{ width: "100%", marginTop: "6px", padding: "2px" }}>
           <Image
             src="https://static3.industrybuying.com/homepage/1649305297safety.jpg"
@@ -241,6 +241,7 @@ export const HomePage = () => {
               src="https://static3.industrybuying.com/homepage/1652437509PowerHouse-Strip-Banner%20(1).png"
               alt="industry"
               marginBottom={4}
+              marginTop={10}
             />
             <Heading as="h3" size="md" textAlign="left" marginTop="12px">
               IB POWER BRAND
