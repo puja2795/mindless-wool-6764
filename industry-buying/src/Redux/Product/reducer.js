@@ -4,6 +4,7 @@ import { GET_PPRODUCTS_FAILURE, GET_PPRODUCTS_REQUEST, GET_PPRODUCTS_SUCCESS, PO
 const initialState = {
     products: [],
     cart:[],
+    finaltotal:0,
     isLoading: false,
     isError: false,
 }

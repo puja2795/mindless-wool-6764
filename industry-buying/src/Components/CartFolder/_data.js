@@ -1,4 +1,11 @@
-export const cartData = [
+
+
+
+export const cartData = 
+
+[
+
+  
     {
       id: '1',
       price: 19.99,

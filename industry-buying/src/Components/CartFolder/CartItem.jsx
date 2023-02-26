@@ -24,10 +24,10 @@ const QuantitySelect = (props) => {
 }
 
 export const CartItem = (props) => {
-  const {
+  const {id,
     isGiftWrapping,
     name,
-    description,
+    category,
     quantity,
     image,
     currency,
@@ -35,6 +35,8 @@ export const CartItem = (props) => {
     onChangeQuantity,
     onClickDelete,
   } = props
+
+ 
   return (
     <Flex
       direction={{
@@ -46,7 +48,7 @@ export const CartItem = (props) => {
     >
       <CartProductMeta
         name={name}
-        description={description}
+        category={category}
         image={image}
         isGiftWrapping={isGiftWrapping}
       />
