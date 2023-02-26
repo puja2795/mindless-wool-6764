@@ -7,7 +7,9 @@ import {
     Text,
     useColorModeValue as mode,
   } from '@chakra-ui/react'
+import { useEffect, useState } from 'react';
   import { FaArrowRight } from 'react-icons/fa'
+import { useSelector } from 'react-redux';
   import { useNavigate } from "react-router-dom";
   import { formatPrice } from './PriceTag'
   const OrderSummaryItem = (props) => {
@@ -22,13 +24,25 @@ import {
     )
   }
   
-  export const CartOrderSummary = () => {
+  export const CartOrderSummary = ({cartData,settotal,setcartdata,total}) => {
+    // const [fulltotal,settotaly]=useState(0);
 
+    const finalcarttotal=useSelector(store=>store.productReducer.finaltotal);
 
+    
+let fulltotaltotal =()=>{
+  cartData.map((el)=>
+settotal((p)=>p+ el.price)
+)}
+console.log(total)
+
+useEffect(()=>{
+fulltotaltotal()
+},[cartData])
     const navigate=useNavigate();
     const handleCheckout=() => {
-      alert(" YOU CHECKED OUT")
-
+      alert(" YOU CHECKED OUT YOUR PRODUCT")
+setcartdata([])
 navigate('/paymentpage')
   
     
@@ -38,7 +52,7 @@ navigate('/paymentpage')
         <Heading size="md">Order Summary</Heading>
   
         <Stack spacing="6">
-          <OrderSummaryItem label="Subtotal" value={formatPrice(57)} />
+          <OrderSummaryItem label="Subtotal" value={formatPrice(total)} />
           <OrderSummaryItem label="Shipping + Tax">
             <Link href="#" textDecor="underline">
               Calculate shipping
@@ -55,7 +69,7 @@ navigate('/paymentpage')
             </Text>
             
             <Text fontSize="xl" fontWeight="extrabold">
-              {formatPrice(57)}
+              {formatPrice(total)}
             </Text>
           </Flex>
         </Stack>

@@ -9,21 +9,28 @@ import {
 } from "./actionType";
 
 const initialState = {
-  products: [],
-  cart: [],
-  isLoading: false,
-  isError: false,
-};
 
-export const reducer = (state = initialState, { type, payload }) => {
-  switch (type) {
-    case GET_PPRODUCTS_REQUEST: {
-      return { ...state, isLoading: true };
-    }
+    products: [],
+    cart:[],
+    finaltotal:0,
+    isLoading: false,
+    isError: false,
+}
 
-    case GET_PPRODUCTS_SUCCESS: {
-      return { ...state, isLoading: false, products: payload, isError: false };
-    }
+export const reducer = (state = initialState, {type, payload}) => {
+
+    switch(type) {
+        case GET_PPRODUCTS_REQUEST:{
+           
+            return {...state, isLoading: true };
+        }
+
+        case GET_PPRODUCTS_SUCCESS:{
+            return {...state, isLoading: false, products: payload, isError: false};
+        }
+
+
+    
 
     case GET_PPRODUCTS_FAILURE: {
       return { ...state, isLoading: false, isError: true };
