@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { AdminProductData } from "../Components/AdminProductData";
+import { checkAdmin } from "../Redux/Auth/action";
 import { getData } from "../Redux/Product/action";
 
 export const Dashboard = () => {
@@ -22,10 +23,8 @@ export const Dashboard = () => {
   };
 
   useEffect(() => {
+    dispatch(checkAdmin(true));
     dispatch(getData());
-    // axios
-    //   .get("http://localhost:8080/powertools")
-    //   .then((res) => setAdminData(res.data));
   }, []);
 
   return (

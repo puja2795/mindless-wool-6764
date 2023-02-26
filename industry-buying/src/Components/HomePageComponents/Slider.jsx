@@ -73,7 +73,6 @@ const Slider = ({ items, columns, type }) => {
             </Card>
           );
         })}
-        ;
       </Grid>
 
       <Box w="5%" margin="auto" onClick={nextHandler}>

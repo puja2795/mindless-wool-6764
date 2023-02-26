@@ -3,6 +3,7 @@ import React from "react";
 import "./Admin.css";
 import { useDispatch } from "react-redux";
 import { addProduct } from "../Redux/Admin/action";
+import { useNavigate } from "react-router-dom";
 
 let initialState = {
   category: "",
@@ -16,6 +17,7 @@ let initialState = {
 export const Admin = () => {
   const [product, setProduct] = useState(initialState);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -28,7 +30,9 @@ export const Admin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(addProduct(product));
+    alert("Product Added Successfully");
     setProduct(initialState);
+    navigate("/dashboard");
   };
   return (
     <div className="Admin_main_container">

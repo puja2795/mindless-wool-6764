@@ -11,7 +11,13 @@ const Furniture = () => {
 
   return (
     <div>
-      <Heading as="h3" size="md" textAlign="left" marginTop="12px">
+      <Heading
+        as="h3"
+        size="md"
+        textAlign="left"
+        marginTop="12px"
+        paddingLeft={3}
+      >
         FURNITURE, HOSPITALITY AND FOOD SERVICE
       </Heading>
       <Slider items={products} columns={8} type="card" />
