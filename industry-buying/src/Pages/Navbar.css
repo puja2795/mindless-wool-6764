@@ -6,6 +6,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 1;
+    height: 70px;
   }
   
   .nav-container {
@@ -39,8 +40,10 @@ nav {
   }
   
   .menu-container ul li a {
+    display: flex;
     color: #fef7f7;
     text-decoration: none;
+    
   }
   .search-container{
     display: flex;
@@ -65,29 +68,36 @@ nav {
   
   }
   .dropdown-content {
+    color: black;
     background-color: #fff;
     display: none;
     list-style: none;
-    margin: 0;
-    padding: 0;
+     margin:0;
+    padding: 10px;
     position: absolute;
     z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 1px solid black;
+
   }
   
   .dropdown.active .dropdown-content {
     display: block;
   }
   .dropdown-content1 {
+    
     background-color: #fff;
     display: none;
     list-style: none;
     margin: 0;
-    padding: 0;
-    position: absolute;
-    z-index: 1;
+    padding: 10px;
+    position: absolute; 
+     z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 1px solid black;
   }
   
-  .dropdown.active .dropdown-content1 {
+  .dropdown1.active .dropdown-content1 {
     display: block;
   }
 .butt1 li button {
@@ -95,6 +105,8 @@ color: #fef7f7;
 background-color: #e9611e;
 border-radius: 4px 0 0 4px;
 }
-.butt2 li a {
+.button2 {
   color: #fef7f7;
   }
+ 
+  
