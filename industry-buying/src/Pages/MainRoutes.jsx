@@ -22,13 +22,11 @@ export default function MainRoutes() {
       <Route path="/cart" element={<CartPage />} />
       <Route path="/paymentpage" element={<PaymentPage />} />
 
+      <Route path="/adminlogin" element={<AdminLogin />} />
+      <Route path="/adminregister" element={<AdminRegister />} />
+      <Route path="/admin" element={<Admin />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/edit/:id" element={<AdminEditProduct />} />
-
-      <Route path="/adminlogin" element={<AdminLogin />} />
-      <Route path="/adminregister" element={<AdminRegister />}/>
-      <Route path="/admin" element={<Admin/>} />
-
     </Routes>
   );
 }
