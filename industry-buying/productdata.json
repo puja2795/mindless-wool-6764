@@ -1,231 +1,294 @@
 {
-    "powertools" : [
-        {
-          "id":1,
-          "category":"Saws & Chasers",
-          "image":"https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
-          "name":"Makita MLT100 4300 RPM 43.8 kg Table Saw",
-          "by":"Makita",
-          "price":"43,800",
-          "discount":"20"
-        },
-        {
-          "id":2,
-          "category":"Saws & Chasers",
-          "image":"https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.85261020_1668167865639.webp",
-          "name":"Ingco 4500 RPM Table Saw TS15007",
-          "by":"Ingco",
-          "price":"16,800 ",
-          "discount":"30"
-        },
-        {
-          "id":3,
-          "category":"Saws & Chasers",
-          "image":"https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.103033292_1668045097002.webp",
-          "name":"Ingco 85 W 1450 rpm Scroll Saw Machine SS852",
-          "by":"Ingco",
-          "price":"6,680",
-          "discount":"57"
-        },
-        {
-          "id":4,
-          "category":"Saws & Chasers",
-          "image":"https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
-          "name":"Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
-          "by":"Voltz",
-          "price":"7,780",
-          "discount":"2"
-        },
-        {
-          "id":5,
-          "category":"Saws & Chasers",
-          "image":"https://static1.industrybuying.com/products/power-tools/wall-chasers/POW.WAL.62076632_1668009929785.webp",
-          "name":"Xtra Power 2700W Input Power Wall Chaser XPT 418",
-          "by":"Xtra Power",
-          "price":"14,800",
-          "discount":"0"
-        },
-        {
-          "id":6,
-          "category":"Saws & Chasers",
-          "image":"https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.83175023_1668054154698.webp",
-          "name":"Ingco 220-240V 900-3300 RPM Reciprocating Saw RS8008",
-          "by":"Xtra Power",
-          "price":" 3,380",
-          "discount":"60"
-        },
-        {
-          "id":7,
-          "category":"Saws & Chasers",
-          "image":"https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.62913576_1668038089876.webp",
-          "name":"Yato Band Saw 1100 W YT-82185",
-          "by":"Yato",
-          "price":"21,800",
-          "discount":"13"
-        },
-        {
-          "id":8,
-          "category":"Saws & Chasers",
-          "image":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":9,
-          "category":"Saws & Chasers",
-          "image":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":10,
-          "category":"Saws & Chasers",
-          "image":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        },
-        {
-          "id":1,
-          "category":"",
-          "name":"",
-          "by":"",
-          "price":"",
-          "discount":""
-        }
-    
-      ]
+  "powertools": [
+    {
+      "id": 1,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
+      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
+      "by": "Makita",
+      "price": 43800,
+      "discount": 20
+    },
+    {
+      "id": 2,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.85261020_1668167865639.webp",
+      "name": "Ingco 4500 RPM Table Saw TS15007",
+      "by": "Ingco",
+      "price": 16800,
+      "discount": 30
+    },
+    {
+      "id": 3,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.103033292_1668045097002.webp",
+      "name": "Ingco 85 W 1450 rpm Scroll Saw Machine SS852",
+      "by": "Ingco",
+      "price": 6680,
+      "discount": 57
+    },
+    {
+      "id": 4,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
+      "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
+      "by": "Voltz",
+      "price": 7780,
+      "discount": 2
+    },
+    {
+      "id": 5,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/wall-chasers/POW.WAL.62076632_1668009929785.webp",
+      "name": "Xtra Power 2700W Input Power Wall Chaser XPT 418",
+      "by": "Xtra Power",
+      "price": 14800,
+      "discount": 0
+    },
+    {
+      "id": 6,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.83175023_1668054154698.webp",
+      "name": "Ingco 220-240V 900-3300 RPM Reciprocating Saw RS8008",
+      "by": "Xtra Power",
+      "price": 3380,
+      "discount": 60
+    },
+    {
+      "id": 7,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.62913576_1668038089876.webp",
+      "name": "Yato Band Saw 1100 W YT-82185",
+      "by": "Yato",
+      "price": 21800,
+      "discount": 13
+    },
+    {
+      "id": 8,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/chain-saw/POW.CHA.97138210_1668385558636.webp",
+      "name": "Omada 21V Metal Shear Cordless Tin Scissor OMD",
+      "by": "Omada",
+      "price": 19800,
+      "discount": 37
+    },
+    {
+      "id": 9,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/chain-saw/POW.CHA.97138197_1668385553483.webp",
+      "name": "Omada 8-Inch Small Tree Cutting Cordless Chainsaw",
+      "by": "Omada",
+      "price": 8990,
+      "discount": 30
+    },
+    {
+      "id": 10,
+      "category": "Saws & Chasers",
+      "image": "https://static1.industrybuying.com/products/power-tools/miter-saw/POW.MIT.27632217_1671596525517.webp",
+      "name": "VOLTZ M1YD-ZB-254 180W Wood Table Saw (Armeture)",
+      "by": "Voltz",
+      "price": 3380,
+      "discount": 50
+    },
+    {
+      "id": 11,
+      "category": "Electric Hammers ",
+      "image": "https://static1.industrybuying.com/products/power-tools/demolition-hammers/POW.DEM.37395942_1669117879779.webp",
+      "name": "Hikoki 950W Demolition Hammer - H41MB2S9Z",
+      "by": "HiKOKI",
+      "price": 29800,
+      "discount": 25
+    },
+    {
+      "id": 12,
+      "category": "Electric Hammers ",
+      "image": "https://static1.industrybuying.com/products/power-tools/rotary-hammers/POW.ROT.47395624_1669117845555.webp",
+      "name": "Hikoki 550 W Rotary Hammer Drill - 402848Z(KIT)",
+      "by": "HiKOKI",
+      "price": 6000,
+      "discount": 10
+    },
+    {
+      "id": 13,
+      "category": "Electric Hammers ",
+      "image": "https://static1.industrybuying.com/products/power-tools/rotary-hammers/POW.ROT.107395657_1669117873537.webp",
+      "name": "Hikoki 850 W Rotary Hammer Drill - DH28PCY2S9Z",
+      "by": "HiKOKI",
+      "price": 16880,
+      "discount": 40
+    },
+    {
+      "id": 14,
+      "category": "Electric Hammers ",
+      "imagge": "https://static1.industrybuying.com/products/power-tools/demolition-hammers/POW.DEM.67390663_1669028647179.webp",
+      "name": "Yiking 3380-B 17 mm Demolition Hammer",
+      "by": "YIKING",
+      "price": 5840,
+      "discount": 35
+    },
+    {
+      "id": 15,
+      "category": "Electric Hammers ",
+      "image": "https://static1.industrybuying.com/products/power-tools/demolition-hammers/POW.DEM.47390677_1669028726515.webp",
+      "name": "Yiking 4665-B 41 mm Demolition Hammer",
+      "by": "YIKING",
+      "price": 5632,
+      "discount": 45
+    },
+    {
+      "id": 16,
+      "category": "Electric Hammers ",
+      "image": "https://static1.industrybuying.com/products/power-tools/electric-hammers-breakers/rotary-hammers/POW.ROT.28047766_1676356670156.webp",
+      "name": "Sauran 22 mm 21V Cordless Rotary Hammer Drill",
+      "by": "Sauran",
+      "price": 9990,
+      "discount": 20
+    },
+    {
+      "id": 17,
+      "category": "Electric Hammers ",
+      "image": "https://static1.industrybuying.com/products/power-tools/electric-hammers-breakers/rotary-hammers/POW.ROT.78047772_1676356577245.webp",
+      "name": "Sauran 26 mm 20V Cordless Rotary Hammer Drill",
+      "by": "Sauran",
+      "price": 3840,
+      "discount": 0
+    },
+    {
+      "id": 18,
+      "category": "Sanders & Polishers",
+      "image": "https://static1.industrybuying.com/products/power-tools/electric-planer/POW.ELE.107417996_1669636335709.webp",
+      "name": "Akari 850 W Electric Planer EP-90",
+      "by": "AKARI",
+      "price": 4690,
+      "discount": 10
+    },
+    {
+      "id": 19,
+      "category": "Sanders & Polishers",
+      "image": "https://static1.industrybuying.com/products/power-tools/electric-planer/POW.ELE.87417982_1669636305053.webp",
+      "name": "Akari 500 W Electric Planer EP-82",
+      "by": "AKARI",
+      "price": 2480,
+      "discount": 0
+    },
+    {
+      "id": 20,
+      "category": "Sanders & Polishers",
+      "image": "https://static1.industrybuying.com/products/power-tools/belt-sander/POW.BEL.97394720_1669092107924.webp",
+      "name": "Yato 20 x 520 mm Long Reach Air Belt Sander, YT-09742",
+      "by": "Yato",
+      "price": 5380,
+      "discount": 65
+    },
+    {
+      "id": 21,
+      "category": "Sanders & Polishers",
+      "image": "https://static1.industrybuying.com/products/power-tools/sander-polisher/POW.SAN.77394731_1669092081389.webp",
+      "name": "Yato 7 inch Air Angle Polisher, YT-09755",
+      "by": "Yato",
+      "price": 15990,
+      "discount": 30
+    },
+    {
+      "id": 22,
+      "category": "Drilling Machine",
+      "image": "https://static1.industrybuying.com/products/power-tools/magnetic-core-drilling-machine/POW.MAG.107638336_1671621710094.webp",
+      "name": "Eibenstock 1050 W Magnetic Core Drilling Machine",
+      "by": "Eibenstock",
+      "price": "33880",
+      "discount": 10
+    },
+    {
+      "id": 23,
+      "category": "Drilling Machine",
+      "image": "https://static1.industrybuying.com/products/power-tools/magnetic-core-drilling-machine/POW.MAG.77638371_1671621666797.webp",
+      "name": "Eibenstock 110 W Magnetic Drill Rig - B 32.1",
+      "by": "Eibenstock",
+      "price": 40000,
+      "discount": 10
+    },
+    {
+      "id": 24,
+      "category": "Painting Tools",
+      "image": "https://static1.industrybuying.com/products/power-tools/painting-tools/mixers/POW.MIX.27146821_1668387122160.webp",
+      "name": "Hikoki 1200W Mixer - UM12VST2S9Z",
+      "by": "HiKOKI",
+      "price": 16000,
+      "discount": 15
+    },
+    {
+      "id": 25,
+      "category": "Painting Tools",
+      "image": "https://static1.industrybuying.com/products/power-tools/painting-tools/mixers/POW.MIX.97638431_1671621689970.webp",
+      "name": "Eibenstock 1100 W Stirrer - MXT100-110V",
+      "by": "Eibenstock",
+      "price": 6990,
+      "discount": 10
+    },
+    {
+      "id": 27,
+      "category": "Sander & Polisher",
+      "image": "https://static1.industrybuying.com/products/cleaning/vacuum-cleaners-accessories/vacuum-cleaners/PO.DU.489233_1667877145964.webp",
+      "name": "Hitachi Disc Sander S15SBbyHitachi",
+      "by": "Hitachi",
+      "price": 19900,
+      "discount": 5
+    },
+    {
+      "id": 28,
+      "category": "Sander & Polisher",
+      "image": "https://static1.industrybuying.com/products/pneumatics/pneumatic-tool/sanders/PN.PN.SA.555669_1667884838276.webp",
+      "name": "Hitachi - Koki SV13YA Orbital Sander (Horse Power 230W,",
+      "by": "Hitachi",
+      "price": 9990,
+      "discount": 0
+    },
+    {
+      "id": 29,
+      "category": "Saws",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.27648414_1671707413975.webp",
+      "name": "Ingco COS223589 2200W 3700 rpm Cut Off Saw with 355mm Cutting DiscbyIngco",
+      "by": "Ingco",
+      "price": 7990,
+      "discount": 23
+    },
+    {
+      "id": 30,
+      "category": "Saws",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.47632841_1671596510526.webp",
+      "name": "VOLTZ VZ-WTS-2541 1800W Wood Table Saw Machine",
+      "by": "Voltz",
+      "price": 18900,
+      "discount": 20
+    },
+    {
+      "category": "Saws",
+      "image": "https://static1.industrybuying.com/products/agriculture-garden-landscaping/grain-processing-machine/AGR.GRA.82125517_1670416542273.webp",
+      "name": "AgriPro 3 HP Butterfly Combined Rice Mill Machine",
+      "by": "AgriPro",
+      "price": 19800,
+      "discount": "20",
+      "id": 31
     }
+  ],
+  "cart": [
+    {
+      "category": "Saws & Chasers",
+      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
+      "by": "Makita",
+      "price": 43800,
+      "discount": 20,
+      "id": 1
+    },
+    {
+      "category": "Saws & Chasers",
+      "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
+      "by": "Voltz",
+      "price": 7780,
+      "discount": 2,
+      "id": 2
+    }
+  ]
+}

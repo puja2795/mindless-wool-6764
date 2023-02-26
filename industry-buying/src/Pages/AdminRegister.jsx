@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "./Form.css"
 
-const Register = () => {
+const AdminRegister = () => {
 
     const [id, idchange] = useState("");
     const [name, namechange] = useState("");
@@ -52,13 +52,13 @@ const Register = () => {
         let regobj = { id, name, password, email };
         if (IsValidate()) {
             //console.log(regobj);
-            fetch("http://localhost:8080/user", {
+            fetch("http://localhost:8080/admin", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regobj)
             }).then((res) => {
                 toast.success('Registered successfully.')
-                navigate('/login');
+                navigate('/adminlogin');
             }).catch((err) => {
                 toast.error('Failed :' + err.message);
             });
@@ -68,8 +68,10 @@ const Register = () => {
         <div>
             <div className="form_main_container">
                 <form className="formcont" onSubmit={handlesubmit}>
-                    <h1>User Registration</h1>
-                    _________________________________________                    <br />
+                    <h1>Admin Registration</h1>
+                    ____________________________________
+
+                    <br />
                     <br />
 
                     <label>User Name <span className="errmsg">*</span></label>
@@ -80,13 +82,13 @@ const Register = () => {
                     <input value={name} onChange={e => namechange(e.target.value)} className="form-control"></input>
                     <label>Email <span className="errmsg">*</span></label>
                     <input value={email} onChange={e => emailchange(e.target.value)} className="form-control"></input>
-
+                  
 
 
                     <div className="card_footer">
                         <button type="submit" className="btn btn-primary">Register</button>
-                      <br />
-                        <Link to={'/login'} className="link-btn">Already have an account? sign In here!</Link>
+               <br />
+                        <Link to={'/adminlogin'} className="link-btn">Already have an account? sign In here!</Link>
                     </div>
 
                 </form>
@@ -97,4 +99,4 @@ const Register = () => {
     );
 }
 
-export default Register;
+export default AdminRegister;

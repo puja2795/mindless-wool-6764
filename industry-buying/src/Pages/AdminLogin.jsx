@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import './Form.css'
 
-const Login = () => {
+const AdminLogin = () => {
     const [username, usernameupdate] = useState('');
     const [password, passwordupdate] = useState('');
 
@@ -18,7 +18,7 @@ const Login = () => {
         if (validate()) {
             ///implentation
             // console.log('proceed');
-            fetch("http://localhost:8080/user/" + username).then((res) => {
+            fetch("http://localhost:8080/admin/" + username).then((res) => {
                 return res.json();
             }).then((resp) => {
                 //console.log(resp)
@@ -28,7 +28,7 @@ const Login = () => {
                     if (resp.password === password) {
                         toast.success('Success');
                         sessionStorage.setItem('username', username);
-                        usenavigate('/')
+                        usenavigate('/admin')
                     } else {
                         toast.error('Please Enter valid credentials');
                     }
@@ -56,16 +56,19 @@ const Login = () => {
         <div>
             <div className="form_main_container">
                 <form onSubmit={ProceedLogin} className="formcont">
-                        <h2>User Login</h2>
-                        _____________________________________
+                        <h2>Admin Login</h2>
+                        ______________________________________
+
+                     
+                       
                         <label>User Name <span className="errmsg">*</span></label>
-                        <input value={username} onChange={e => usernameupdate(e.target.value)} className="form-control"></input>
+                        <input value={username} onChange={e => usernameupdate(e.target.value)}></input>
                         <label>Password <span className="errmsg">*</span></label>
                         <input type="password" value={password} onChange={e => passwordupdate(e.target.value)} className="form-control"></input>
                         <div className="card_footer">
-                            <button type="submit" className="loginbtn">Login</button>
-                 <br />
-                            <Link className="link-btn" to={'/register'}>New User Register here!</Link>
+                            <button type="submit" className="btn btn-primary">Login</button>
+                       <br />
+                            <Link className="link-btn" to={'/adminregister'}>New User Register here!</Link>
                         </div>
                 </form>
             </div>
@@ -73,4 +76,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default AdminLogin;

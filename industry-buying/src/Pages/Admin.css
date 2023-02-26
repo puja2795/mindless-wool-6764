@@ -1,41 +1,40 @@
-.form_main_container {
+.Admin_main_container{
     text-align: center;
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(79deg, #49b8ef, #075aae 70%, #051264);
+   display: flex;
+   min-height: 120vh;
+   align-items: center;
+   justify-content: center;
+   background-image: linear-gradient(79deg,#49b8ef,#075aae 70%, #051264);
+
 }
 
-.formcont {
+.admincont{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: larger;
-    height: 550px;
+    height: 650px;
     width: 450px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
     border: 3px solid rgb(58, 162, 231);
     border-radius: 10px;
     background-color: rgb(89, 210, 244);
 }
 
-.formcont label {
+.admincont label{
     color: #075aae;
     font-weight:500;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.formcont input {
-    margin: 0.25rem 0;
-    padding: 0.3rem;
-    border: none;
-    border-radius: 10px;
-    text-transform: none;
+.admincont input{
+    border: 2px solid rgb(39, 214, 240);
+    margin-bottom: 10px;
+
 }
 
-.formcont button {
+.AdminBtn{
     margin-top: 10px;
     border: none;
     background-color: rgb(5, 51, 90);
@@ -45,14 +44,4 @@
     border-radius: 10px;
     cursor: pointer;
 
-}
-
-.card_footer {
-    margin: 10px;
-}
-
-.link-btn {
-    color: #000000;
-    font-weight: bold;
-    font-size: 15px;
 }

@@ -8,15 +8,17 @@ import Navbar from "./Pages/Navbar";
 import Sidebar from "./Pages/Sidebar"
 import Footer from "./Footer";
 
+
 function App() {
   return (
     <div className="App">
       <ToastContainer theme="colored" position="top-right"></ToastContainer>
-      {/* <TempNavbar />
-      <MainRoutes /> */}
+      // <TempNavbar />
+      <MainRoutes /> 
       <Navbar/>
-      <Sidebar/>
+     // <Sidebar/>
       <Footer/>
+
     </div>
   );
 }

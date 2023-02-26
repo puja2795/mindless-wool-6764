@@ -10,6 +10,7 @@ const TempNavbar = () => {
       <Link to="/login">Login</Link>
       <Link to="/register">Register</Link>
       <Link to="/cart">Cart</Link>
+      <Link to="/adminlogin">Admin Login</Link>
     </LinkWrapper>
   )
 }

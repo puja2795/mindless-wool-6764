@@ -1,0 +1,47 @@
+#filters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cate_heading{
+    margin-top: 20px;
+}
+
+#sort_cate{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border:1px solid  black;
+    width: 70%;
+    margin-top: 10px; 
+}
+
+#sort_manufacturer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border:1px solid  black;
+    width: 70%;
+    margin-top: 10px; 
+}
+
+#price{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left; 
+    border:1px solid  black;
+    width: 70%;
+    margin-top: 10px; 
+}
+
+#discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left; 
+    border:1px solid  black;
+    width: 70%; 
+    margin-top: 10px; 
+}

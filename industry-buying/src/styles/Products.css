@@ -4,14 +4,19 @@
 }
 
 #product_container{
-   width:80%;
-   height: 1000px;
-   border: 1px solid  black;
+   width:75%;
+   height: auto;
+   border: 0px solid  black;
    text-align: left;
+   margin: auto;
+}
+
+#cart_btn, #buy_btn{
+    border: 1px solid  black;
 }
 
 #sidebar{
     width:20%;
-    height: 700px;
+    height: 900px;
     border: 1px solid  black;
  }

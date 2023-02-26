@@ -1,52 +1,412 @@
 {
   "power-brands": [
     {
+      "id": 1,
       "title": "AgriPro 3 HP Butterfly Combined Rice Mill Machine without Motor APCRM6N9FC",
       "price": "19,800",
       "image": "https://static1.industrybuying.com/products/agriculture-garden-landscaping/grain-processing-machine/AGR.GRA.82125517_1670416542273.webp",
       "by": "By AgriPro"
     },
     {
+      "id": 2,
       "title": "Fulcrum 3 HP Air Compressor 50 liters, TB3050BM",
       "price": "10,900",
       "image": "https://static1.industrybuying.com/products/pneumatics/air-compressors/air-tank-compressor/PNE.AIR.24347772_1668115052521.webp",
       "by": "By Fulcrum"
     },
     {
+      "id": 3,
       "title": "AgriPro 3 HP Butterfly Combined Rice Mill Machine without Motor APCRM6N9FC",
       "price": "7,680",
       "image": "https://static1.industrybuying.com/products/cleaning/pressure-washer/CLE.PRE.53146602_1668052244969.webp",
       "by": "By POWERWASH"
     },
     {
+      "id": 4,
       "title": "Fulcrum 2 Ton 3Mtr Chain Pulley Block 2T3M",
       "price": "3,890",
       "image": "https://static1.industrybuying.com/products/material-handling-and-packaging/chain-pulley-blocks-and-accessories/chain-pulley-block/MAT.CHA.91518751_1667990374012.webp",
       "by": "By Fulcrum"
     },
     {
+      "id": 5,
       "title": "AgriPro Mini Power Tiller APMT52",
       "price": "9,990",
       "image": "https://static1.industrybuying.com/products/agriculture-garden-landscaping/tillers-and-cultivator/tillers/AGR.TIL.41517227_1667990253322.webp",
       "by": "By AgriPro"
     },
     {
+      "id": 6,
       "title": "PowerHouse 255 mm Mitre Saw 2200W PHMS255 with 6 Months Warranty",
       "price": "8,490",
       "image": "https://static1.industrybuying.com/products/power-tools/miter-saw/POW.MIT.82065711_1668009715087.webp",
       "by": "By POWERWASH"
     },
     {
+      "id": 7,
       "title": "POWERWASH High Pressure Washer 1600W PW-M28 with 6 Months Warranty",
       "price": "4,480",
       "image": "https://static1.industrybuying.com/products/cleaning/pressure-washer/CLE.PRE.22179136_1668012965323.webp",
       "by": "By POWERWASH"
     },
     {
+      "id": 8,
       "title": "Fulcrum 150 Kg Heavy Duty Foldable Platform Trolley PH150",
       "price": "2,990",
       "image": "https://static1.industrybuying.com/products/material-handling-and-packaging/platform-trolley/MAT.PLA.91518620_1667990365953.webp",
       "by": "By Fulcrum"
+    }
+  ],
+  "arrivals": [
+    {
+      "id": 1,
+      "title": "Green Soul Atom Office Chair, Mid Back Mesh Ergonomic Home Office Desk Chair(Black)",
+      "price": "3,990",
+      "image": "https://static1.industrybuying.com/products/office-supplies/office-furniture/office-chairs/OFF.OFF.107644843_1677094306299.webp",
+      "by": "by Green Soul"
+    },
+    {
+      "id": 2,
+      "title": "BOSCH GWS 600 professional Angle Grinder for Metal Working",
+      "price": "2,680",
+      "image": "https://static1.industrybuying.com/products/power-tools/angle-grinders/PO.AN.731400_1667895577501.webp",
+      "by": "by Bosch"
+    },
+    {
+      "id": 3,
+      "title": "AGARO Ace 1600 Watts, 21.5 kPa Suction Power",
+      "price": "5,480",
+      "image": "https://static1.industrybuying.com/products/cleaning/vacuum-cleaners-accessories/vacuum-cleaners/CLE.VAC.35982301_1673524861910.webp",
+      "by": "by Agaro"
+    },
+    {
+      "id": 4,
+      "title": "Bullows TL-AT-ES-RT-1.4SS-FG Eco Smart Auto Gun (Ratchet Type)",
+      "price": "23,335",
+      "image": "https://static1.industrybuying.com/products/pneumatics/spray-gun-air-gun/spray-gun/PNE.SPR.75865087_1668211826338.webp",
+      "by": "by Bullows"
+    },
+    {
+      "id": 5,
+      "title": "Orbit TH-312 3000W White Meat Grinder",
+      "price": "3,990",
+      "image": "https://static1.industrybuying.com/products/furniture-hospitality-and-food-service/commercial-kitchen/meat-grinder/FUR.MEA.26228143_1668253925994.webp",
+      "by": "by Orbit"
+    },
+    {
+      "id": 6,
+      "title": "Gravis Chottu+ Sugarcane Juice Machine with 1.5hp Honda Engine",
+      "price": "59,900",
+      "image": "https://static1.industrybuying.com/products/machinery/sugarcane-juice-extractor/MAC.SUG.95778966_1668205530158.webp",
+      "by": "by Gravis"
+    },
+    {
+      "id": 7,
+      "title": "LG XBOOM OK55 Party Speaker (Black)",
+      "price": "27,800",
+      "image": "https://static1.industrybuying.com/products/office-supplies/computers-accessories/office-speaker/OFF.OFF.26966666_1668356707211.webp",
+      "by": "by LG"
+    },
+    {
+      "id": 8,
+      "title": "SanDisk 1TB Extreme Portable SSD- 1050MB/s,PC,MAC & TypeC Smartphone Compatible",
+      "price": "9,990",
+      "image": "https://static1.industrybuying.com/products/it-electronics/storage-devices/hard-disks/ITE.HAR.85928655_1668666860652.webp",
+      "by": "by SanDisk"
+    }
+  ],
+  "furniture": [
+    {
+      "id": 1,
+      "image": "https://static3.industrybuying.com/homepage/1646996896Furniture-16_130x74.png",
+      "name": "Cabinate & side Boards",
+      "discount": "Various designs ate best peices"
+    },
+    {
+      "id": 2,
+      "image": "https://static3.industrybuying.com/homepage/1646996902Furniture-6_130x74.png",
+      "name": "Plastic Chairs",
+      "discount": "Up to 60% off"
+    },
+    {
+      "id": 3,
+      "image": "https://static3.industrybuying.com/homepage/1646996961Furniture-17_130x74.png",
+      "name": "Water Purifier",
+      "discount": "Upto 24% off"
+    },
+    {
+      "id": 4,
+      "image": "https://static3.industrybuying.com/homepage/1646996920Furniture-1_130x74.png",
+      "name": "Water Dispensers",
+      "discount": "Upto 25% off"
+    },
+    {
+      "id": 5,
+      "image": "https://static3.industrybuying.com/homepage/1646996927Furniture-11_130x74.png",
+      "name": "Food Service Storage and Transportation",
+      "discount": "Wide Range of Products"
+    },
+    {
+      "id": 6,
+      "image": "https://static3.industrybuying.com/homepage/1646996933Furniture-12_130x74.png",
+      "name": "Deep Freezer",
+      "discount": "starting from Rs. 14,500"
+    },
+    {
+      "id": 7,
+      "image": "https://static3.industrybuying.com/homepage/1646996940Furniture-15_130x74.png",
+      "name": "Cafe Chairs and Bar Stools",
+      "discount": "Multiple designs"
+    },
+    {
+      "id": 8,
+      "image": "https://static3.industrybuying.com/homepage/1646996982Furniture-9_130x74.png",
+      "name": "Juicer Mixer Grinder",
+      "discount": "Competitive prices"
+    },
+    {
+      "id": 9,
+      "image": "https://static3.industrybuying.com/homepage/1646997057sofa%20set.png",
+      "name": "Sofa Sets",
+      "discount": "Wide Range of Products"
+    },
+    {
+      "id": 10,
+      "image": "https://static3.industrybuying.com/homepage/1646996966Furniture-7_130x74.png",
+      "name": "Patio Furniture",
+      "discount": "Designs that matter"
+    },
+    {
+      "id": 11,
+      "image": "https://static3.industrybuying.com/homepage/1646996972Furniture-13_130x74.png",
+      "name": "Coffee Maker",
+      "discount": "Upto 50% off"
+    },
+    {
+      "id": 12,
+      "image": "https://static3.industrybuying.com/homepage/1646996977Furniture-8_130x74.png",
+      "name": "Kitchen Utilities",
+      "discount": "Everything you need"
+    },
+    {
+      "id": 13,
+      "image": "https://static3.industrybuying.com/homepage/1646996952Furniture-5_130x74.png",
+      "name": "Plastic Stools",
+      "discount": "Starting from Rs.200"
+    },
+    {
+      "id": 14,
+      "image": "https://static3.industrybuying.com/homepage/1646996989Furniture-2_130x74.png",
+      "name": "Trolley & Racks",
+      "discount": "Starting from Rs.500"
+    },
+    {
+      "id": 15,
+      "image": "https://static3.industrybuying.com/homepage/1646996914Furniture-14_130x74.png",
+      "name": "Chairs and Seating",
+      "discount": "upto 60% off"
+    },
+    {
+      "id": 16,
+      "image": "https://static3.industrybuying.com/homepage/1646996946Furniture-3_130x74.png",
+      "name": "Tables",
+      "discount": "upto 80% off"
+    }
+  ],
+  "agriculture": [
+    {
+      "id": 1,
+      "image": "https://static3.industrybuying.com/homepage/1646990235Brush-cutter.png",
+      "name": "Brush Cutter",
+      "discount": "Multiple Brands"
+    },
+    {
+      "id": 2,
+      "image": "https://static3.industrybuying.com/homepage/1646990308Shears-&-Secateurs.png",
+      "name": "Shears & Secateurs",
+      "discount": "Up to 60% off"
+    },
+    {
+      "id": 3,
+      "image": "https://static3.industrybuying.com/homepage/1646990386Electric-Lawn-Mower.png",
+      "name": "Electric Lawn Mower",
+      "discount": "Top brands"
+    },
+    {
+      "id": 4,
+      "image": "https://static3.industrybuying.com/homepage/16469922642%20(2).jpg",
+      "name": "Tillers and Cultivators",
+      "discount": "Exclusive Range"
+    },
+    {
+      "id": 5,
+      "image": "https://static1.industrybuying.com/products/agriculture-garden-landscaping/chain-saw/electric-chain-saw/PO.SA0.1565328_1667925268893.webp",
+      "name": "Electric Chain Saw",
+      "discount": "Wide Range of Products"
+    },
+    {
+      "id": 6,
+      "image": "https://static3.industrybuying.com/homepage/1646990590Drip-Irrigation-Wires.png",
+      "name": "Drip Irrigation tools",
+      "discount": "Quality Assured"
+    },
+    {
+      "id": 7,
+      "image": "https://static3.industrybuying.com/homepage/1646990613Power-Sprayers.png",
+      "name": "Power Sprayers",
+      "discount": "Upto 45% off"
+    },
+    {
+      "id": 8,
+      "image": "https://static3.industrybuying.com/homepage/1646990655Petrol-Chain-Saw.png",
+      "name": "Petrol Chain Saw",
+      "discount": "upto 40% off"
+    },
+    {
+      "id": 9,
+      "image": "https://static3.industrybuying.com/homepage/1646990719Earth-Auger.png",
+      "name": "Earth Aurger",
+      "discount": "upto 25% off"
+    },
+    {
+      "id": 10,
+      "image": "https://static3.industrybuying.com/homepage/1646991723AG.SP.1616741%20(1).jpg",
+      "name": "HTP Spray Pump",
+      "discount": "upto 50% off"
+    },
+    {
+      "id": 11,
+      "image": "https://static3.industrybuying.com/homepage/1646991750Brush-Cutter-Spares.png",
+      "name": "Brush Cutter Spares",
+      "discount": "Clearance sale"
+    },
+    {
+      "id": 12,
+      "image": "https://static3.industrybuying.com/homepage/1646991815Water-Pump-Sets.png",
+      "name": "Water Pump Sets",
+      "discount": "Wide Range of products"
+    },
+    {
+      "id": 13,
+      "image": "https://static3.industrybuying.com/homepage/1646991840knapsack.png",
+      "name": "Knapsack Sprayer",
+      "discount": "upto 50% off"
+    },
+    {
+      "id": 14,
+      "image": "https://static3.industrybuying.com/homepage/1646991894Seed-Planter.png",
+      "name": "Seed Planter",
+      "discount": "Quality products"
+    },
+    {
+      "id": 15,
+      "image": "https://static3.industrybuying.com/homepage/1646991931Agriculture-10_130x74.png",
+      "name": "Tree Pruning Saws",
+      "discount": "Best quality tools"
+    },
+    {
+      "id": 16,
+      "image": "https://static3.industrybuying.com/homepage/1646990459Fogging-Machine.png",
+      "name": "Fogging Machine",
+      "discount": "upto 40% off"
+    }
+  ],
+  "electrical": [
+    {
+      "id": 1,
+      "image": "https://static3.industrybuying.com/homepage/1647065488electrical-2_130x74.png",
+      "name": "Molded Case Circuit Breakers",
+      "discount": "upto 50% off"
+    },
+    {
+      "id": 2,
+      "image": "https://static3.industrybuying.com/homepage/1647065489electrical-15_130x74.png",
+      "name": "Table & Pedestal Fan",
+      "discount": "upto 40% off"
+    },
+    {
+      "id": 3,
+      "image": "https://static3.industrybuying.com/homepage/1647065490electrical-3_130x74.png",
+      "name": "Miniature Circuit Breakers",
+      "discount": "upto 60% off"
+    },
+    {
+      "id": 4,
+      "image": "https://static3.industrybuying.com/homepage/1647065492electrical-5_130x74.png",
+      "name": "Inverter Generators",
+      "discount": "upto 30% off"
+    },
+    {
+      "id": 5,
+      "image": "https://static3.industrybuying.com/homepage/1647065493electrical-1_130x74.png",
+      "name": "Ceiling Fans",
+      "discount": "upto 70% off"
+    },
+    {
+      "id": 6,
+      "image": "https://static3.industrybuying.com/homepage/1647065494electrical-13_130x74.png",
+      "name": "HT/LT Power Cables",
+      "discount": "upto 40% off"
+    },
+    {
+      "id": 7,
+      "image": "https://static3.industrybuying.com/homepage/1647065499electrical-4_130x74.png",
+      "name": "Inverter & UPS",
+      "discount": "upto 40% off"
+    },
+    {
+      "id": 8,
+      "image": "https://static3.industrybuying.com/homepage/1647065610Untitled%20design.png",
+      "name": "Flexible Single & Multicore Cables",
+      "discount": "upto 80% off"
+    },
+    {
+      "id": 9,
+      "image": "https://static3.industrybuying.com/homepage/1647065503electrical-11_130x74.png",
+      "name": "Indoor Unit for Split Acs",
+      "discount": "upto 35% off"
+    },
+    {
+      "id": 10,
+      "image": "https:/https://static3.industrybuying.com/homepage/1647065504electrical-8_130x74.png",
+      "name": "Exhaust Fan",
+      "discount": "upto 60% off"
+    },
+    {
+      "id": 11,
+      "image": "https://static3.industrybuying.com/homepage/1647065505electrical-10_130x74.png",
+      "name": "Stabilizer",
+      "discount": "upto 50% off"
+    },
+    {
+      "id": 12,
+      "image": "https://static3.industrybuying.com/homepage/1647065506electrical-9_130x74.png",
+      "name": "Coolers",
+      "discount": "upto 50% off"
+    },
+    {
+      "id": 13,
+      "image": "https://static3.industrybuying.com/homepage/1647065507electrical-7_130x74.png",
+      "name": "Submersible Flat Cables",
+      "discount": "upto 60% off"
+    },
+    {
+      "id": 14,
+      "image": "https://static3.industrybuying.com/homepage/1647065508electrical-14_130x74.png",
+      "name": "Wall Fans",
+      "discount": "upto 40% off"
+    },
+    {
+      "id": 15,
+      "image": "https://static3.industrybuying.com/homepage/1647065509electrical-12_130x74.png",
+      "name": "Surge Protection Devices",
+      "discount": "upto 20% off"
+    },
+    {
+      "id": 16,
+      "image": "https://static3.industrybuying.com/homepage/1647065509electrical-6_130x74.png",
+      "name": "Inverter Battery",
+      "discount": "upto 25% off"
     }
   ]
 }
