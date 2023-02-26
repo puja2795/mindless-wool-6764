@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./Pages/Navbar";
 import Sidebar from "./Pages/Sidebar"
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MainRoutes /> */}
       <Navbar/>
       <Sidebar/>
+      <Footer/>
     </div>
   );
 }
