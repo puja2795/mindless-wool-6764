@@ -29,6 +29,12 @@
       "name": "Abhishek",
       "password": "12345",
       "email": "abhishek@gmail.com"
+    },
+    {
+      "id": "Abhishek Singh",
+      "name": "Abhishek Singh",
+      "password": "123456",
+      "email": "as@gmail.com"
     }
   ],
   "admin": [
@@ -43,6 +49,24 @@
       "name": "Puja",
       "password": "1234",
       "email": "pujarinisahoo95@gmail.com"
+    },
+    {
+      "id": "admin101",
+      "name": "admin101",
+      "password": "test101",
+      "email": "sabhishek900@gmail.com"
+    },
+    {
+      "id": "admin102",
+      "name": "admin",
+      "password": "test123",
+      "email": "asd2@gmail.com"
+    },
+    {
+      "id": "admin103",
+      "name": "admin103",
+      "password": "test",
+      "email": "asd@gmail.com"
     }
   ],
   "powertools": [
@@ -52,7 +76,7 @@
       "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
       "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
       "by": "Voltz",
-      "price": 7780,
+      "price": "77800",
       "discount": "20"
     },
     {
@@ -61,7 +85,7 @@
       "image": "https://static1.industrybuying.com/products/power-tools/wall-chasers/POW.WAL.62076632_1668009929785.webp",
       "name": "Xtra Power 2700W Input Power Wall Chaser XPT 418",
       "by": "Xtra Power",
-      "price": 14800,
+      "price": "145000",
       "discount": 0
     },
     {
@@ -311,13 +335,30 @@
   "cart": [
     {
       "category": "Saws & Chasers",
-      "name": "Ingco 4500 RPM Table Saw TS15007",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.85261020_1668167865639.webp",
-      "by": "Ingco",
-      "price": 16800,
-      "discount": 30,
+      "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
+      "by": "Voltz",
+      "price": "77800",
+      "discount": "20",
+      "id": 1
+    },
+    {
+      "category": "Saws & Chasers",
+      "name": "Ingco 220-240V 900-3300 RPM Reciprocating Saw RS8008",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.83175023_1668054154698.webp",
+      "by": "Xtra Power",
+      "price": "3560",
+      "discount": 60,
       "id": 2
     },
-    
+    {
+      "category": "Saws & Chasers",
+      "name": "Xtra Power 2700W Input Power Wall Chaser XPT 418",
+      "image": "https://static1.industrybuying.com/products/power-tools/wall-chasers/POW.WAL.62076632_1668009929785.webp",
+      "by": "Xtra Power",
+      "price": 14800,
+      "discount": 0,
+      "id": 3
+    }
   ]
 }

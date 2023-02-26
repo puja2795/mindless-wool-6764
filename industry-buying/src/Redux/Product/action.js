@@ -21,6 +21,10 @@ export const productFailureAction = () => {
   return { type: GET_PPRODUCTS_FAILURE };
 };
 
+export const deleteItemAction = (id) => {
+    return { type: DELETE_ITEM_SUCCESS, payload: id };
+  };
+
 
 export const getData = (param) => (dispatch) => {
     dispatch(productRequestAction());
@@ -76,10 +80,10 @@ export const getData = (param) => (dispatch) => {
 
 
 
+     
 
 
-
-export const deleteItem = (id) => (dispatch) => {
+ export const deleteItem = (id) => (dispatch) => {
   axios
     .delete(`http://localhost:8080/powertools/${id}`)
     .then(() => {
