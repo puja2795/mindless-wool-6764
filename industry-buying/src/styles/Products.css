@@ -4,7 +4,7 @@
 }
 
 #product_container{
-   width:80%;
+   width:75%;
    height: auto;
    border: 0px solid  black;
    text-align: left;
@@ -17,6 +17,6 @@
 
 #sidebar{
     width:20%;
-    height: 700px;
+    height: 900px;
     border: 1px solid  black;
  }
