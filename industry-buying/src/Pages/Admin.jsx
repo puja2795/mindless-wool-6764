@@ -44,7 +44,7 @@ export const Admin = () => {
         <br />
         <label>Product Category</label>
         <input
-          type="txt"
+          type="text"
           name="category"
           value={product.category}
           onChange={(e) => handleChange(e)}

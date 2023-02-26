@@ -10,6 +10,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 export const AdminProductData = ({ el }) => {
   return (
@@ -37,9 +38,12 @@ export const AdminProductData = ({ el }) => {
       <Divider />
       <CardFooter>
         <ButtonGroup spacing="20">
-          <Button colorScheme="teal" size="sm">
-            Edit
-          </Button>
+          <Link to={`/edit/${el.id}`}>
+            {" "}
+            <Button colorScheme="teal" size="sm">
+              Edit
+            </Button>
+          </Link>
           <Button colorScheme="red" size="sm">
             Delete
           </Button>
