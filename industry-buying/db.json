@@ -311,21 +311,21 @@
   "cart": [
     {
       "category": "Saws & Chasers",
-      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
-      "by": "Makita",
-      "price": 43800,
-      "discount": 20,
-      "id": 1
+      "name": "Ingco 4500 RPM Table Saw TS15007",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.85261020_1668167865639.webp",
+      "by": "Ingco",
+      "price": 16800,
+      "discount": 30,
+      "id": 2
     },
     {
       "category": "Saws & Chasers",
-      "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
-      "by": "Voltz",
-      "price": 7780,
-      "discount": 2,
-      "id": 2
+      "name": "Ingco 85 W 1450 rpm Scroll Saw Machine SS852",
+      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.103033292_1668045097002.webp",
+      "by": "Ingco",
+      "price": 6680,
+      "discount": 57,
+      "id": 3
     }
   ]
 }

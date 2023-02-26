@@ -1,13 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './PaymentPage.css'
 import photo from './images/card_img.png'
+import { useNavigate } from 'react-router-dom';
+
 export default function PaymentPage() {
+
+const [name,setName]=useState("");
+
+// const handleChange=(e)=>{
+//     // console.log(e.target.value)
+//     setName(e.target.value)
+// }
+const navigate=useNavigate();
+    const handleSubmit=(e)=>{
+       e.preventDefault()
+        // console.log(e)
+
+        name===""?alert(`Please Fill The Form`):alert(`${name} Your Payment Success `)||navigate("/");
+        
+        // setName(e.target.value)
+        setName("")
+
+        // 
+    };
+    // console.log(name)
   return (
    
    
 <div class="container">
 
-<form action="">
+<form action="" onSubmit={handleSubmit}>
 
     <div class="row">
 
@@ -17,7 +39,7 @@ export default function PaymentPage() {
 
             <div class="inputBox">
                 <span>full name :</span>
-                <input type="text" placeholder="john deo"/>
+                <input type="text"  onChange={(e)=>setName(e.target.value)} placeholder="john deo"/>
             </div>
             <div class="inputBox">
                 <span>email :</span>
@@ -81,7 +103,7 @@ export default function PaymentPage() {
 
     </div>
 
-    <input type="submit" value="proceed to checkout" class="submit-btn"/>
+    <input type="submit" value="Pay"  class="submit-btn"/>
 
 </form>
 

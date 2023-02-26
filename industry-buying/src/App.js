@@ -8,6 +8,8 @@ import Navbar from "./Pages/Navbar";
 import { AdminNavbar } from "./Pages/AdminNavbar";
 import Sidebar from "./Pages/Sidebar";
 import { useSelector } from "react-redux";
+import Footer from "./Footer";
+
 
 function App() {
   const inAdmin = useSelector((store) => {
@@ -19,9 +21,14 @@ function App() {
       <ToastContainer theme="colored" position="top-right"></ToastContainer>
 
       {inAdmin ? <AdminNavbar /> : <TempNavbar />}
-      <MainRoutes />
-      {/* <Navbar/> */}
-      {/* <Sidebar/> */}
+      
+      // <TempNavbar />
+      <MainRoutes /> 
+      <Navbar/>
+     // <Sidebar/>
+      <Footer/>
+
+
     </div>
   );
 }
