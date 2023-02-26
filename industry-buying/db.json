@@ -35,40 +35,13 @@
   ],
   "powertools": [
     {
-      "id": 1,
-      "category": "Saws & Chasers",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/PO.SA0.107562_1667820111403.webp",
-      "name": "Makita MLT100 4300 RPM 43.8 kg Table Saw",
-      "by": "Makita",
-      "price": 43800,
-      "discount": 20
-    },
-    {
-      "id": 2,
-      "category": "Saws & Chasers",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.85261020_1668167865639.webp",
-      "name": "Ingco 4500 RPM Table Saw TS15007",
-      "by": "Ingco",
-      "price": 16800,
-      "discount": 30
-    },
-    {
-      "id": 3,
-      "category": "Saws & Chasers",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.103033292_1668045097002.webp",
-      "name": "Ingco 85 W 1450 rpm Scroll Saw Machine SS852",
-      "by": "Ingco",
-      "price": 6680,
-      "discount": 57
-    },
-    {
       "id": 4,
       "category": "Saws & Chasers",
       "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
       "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
       "by": "Voltz",
       "price": 7780,
-      "discount": 2
+      "discount": "20"
     },
     {
       "id": 5,
@@ -85,7 +58,7 @@
       "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.83175023_1668054154698.webp",
       "name": "Ingco 220-240V 900-3300 RPM Reciprocating Saw RS8008",
       "by": "Xtra Power",
-      "price": 3380,
+      "price": "3560",
       "discount": 60
     },
     {
@@ -95,7 +68,7 @@
       "name": "Yato Band Saw 1100 W YT-82185",
       "by": "Yato",
       "price": 21800,
-      "discount": 13
+      "discount": "25"
     },
     {
       "id": 8,
@@ -120,7 +93,7 @@
       "category": "Saws & Chasers",
       "image": "https://static1.industrybuying.com/products/power-tools/miter-saw/POW.MIT.27632217_1671596525517.webp",
       "name": "VOLTZ M1YD-ZB-254 180W Wood Table Saw (Armeture)",
-      "by": "Voltz",
+      "by": "Voltza",
       "price": 3380,
       "discount": 50
     },
@@ -150,15 +123,6 @@
       "by": "HiKOKI",
       "price": 16880,
       "discount": 40
-    },
-    {
-      "id": 14,
-      "category": "Electric Hammers ",
-      "imagge": "https://static1.industrybuying.com/products/power-tools/demolition-hammers/POW.DEM.67390663_1669028647179.webp",
-      "name": "Yiking 3380-B 17 mm Demolition Hammer",
-      "by": "YIKING",
-      "price": 5840,
-      "discount": 35
     },
     {
       "id": 15,
