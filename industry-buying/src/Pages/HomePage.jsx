@@ -59,6 +59,7 @@ export const HomePage = () => {
       style={{
         width: "100%",
         display: "flex",
+        marginTop: "25px",
       }}
     >
       <div style={{ width: "15%", height: "100%" }}>
