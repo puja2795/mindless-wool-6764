@@ -1,4 +1,5 @@
 import {
+  EDIT_PRODUCT_SUCCESS,
   GET_PRODUCT_SUCCESS,
   POST_PRODUCT_SUCCESS,
   PRODUCT_FAILURE,
@@ -24,6 +25,9 @@ export const reducer = (state = initialState, { type, payload }) => {
 
     case POST_PRODUCT_SUCCESS:
       return { ...state, isLoading: false };
+
+    case EDIT_PRODUCT_SUCCESS:
+      return { ...state, isError: false };
 
     default:
       return state;
