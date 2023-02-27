@@ -11,7 +11,7 @@ import {
     IconButton,
     useColorModeValue,
   } from '@chakra-ui/react';
-  import { ReactNode } from 'react';
+  // import { ReactNode } from 'react';
   import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
   import { BiMailSend } from 'react-icons/bi';
   
@@ -74,7 +74,7 @@ import {
       <Box
       className='footer'
         bg={useColorModeValue('gray.50', 'gray.900')}
-        color={useColorModeValue('gray.700', 'gray.200')}>
+        color={useColorModeValue('gray.700', 'gray.200')} marginTop={"80px"}>
         <Container as={Stack} maxW={'6xl'} py={10}>
           <SimpleGrid
             templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 2fr' }}
