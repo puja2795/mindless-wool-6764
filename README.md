@@ -30,3 +30,4 @@ https://industrybuying.netlify.app/
 #### Cart Page
 #### Checkout Page
 #### Admin Panel
+<img src=""/>
