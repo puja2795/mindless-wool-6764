@@ -10,7 +10,6 @@ import {
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { store } from '../../Redux/store'
 import { CartItem } from './CartItem'
 import { CartOrderSummary } from './CartOrderSummary'
 // import { cartData } from './_data'
