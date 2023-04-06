@@ -1,5 +1,5 @@
 # mindless-wool-6764
-https://industrybuying.netlify.app/
+https://industry-buying.vercel.app/
 
 # Repository -> mindless-wool-6764
 
