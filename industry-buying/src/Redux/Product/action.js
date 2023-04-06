@@ -30,7 +30,7 @@ export const getData = (param) => (dispatch) => {
     dispatch(productRequestAction());
 
     axios
-      .get(`http://localhost:8080/powertools`,param)
+      .get(`https://plum-quail-tam.cyclic.app/powertools`,param)
       .then((res) => {
         // console.log(res.data);
         dispatch(productSuccessAction(res.data));
@@ -67,7 +67,7 @@ export const getData = (param) => (dispatch) => {
 
         dispatch(postCartRequestAction());
     
-        axios.post(`http://localhost:8080/cart`,payload)
+        axios.post(`https://plum-quail-tam.cyclic.app/cart`,payload)
         .then((res) => {
             console.log(res.data);
             dispatch(postCartSuccessAction(res.data));

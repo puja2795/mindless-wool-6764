@@ -21,7 +21,7 @@ export const CartPage = () => {
   const finalcarttotal=useSelector(store=>store.productReducer.finaltotal);
 console.log(finalcarttotal)
   const getdata=()=>{
-   return axios.get("http://localhost:8080/cart")
+   return axios.get("https://plum-quail-tam.cyclic.app/cart")
     .then(res=>setcartdata(res.data))
   }
   useEffect(()=>{

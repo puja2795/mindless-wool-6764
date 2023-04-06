@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/Products.css";
 import styled from "styled-components";
-// import BreadCrum from "../Components/Products/BreadCrum";
 import { useDispatch, useSelector } from "react-redux";
 import { getData } from "../Redux/Product/action";
 import { DisplayProducts } from "./DisplayProducts";
@@ -17,7 +16,7 @@ const Products = () => {
   //console.log(location);
 
   const prod = useSelector((store) => {
-    //console.log(store.productReducer.products);
+    console.log(store.productReducer.products);
     return store.productReducer.products;
   });
 

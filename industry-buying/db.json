@@ -1,24 +1,6 @@
 {
   "user": [
     {
-      "id": "rinki",
-      "name": "Rinki Singh",
-      "password": "test",
-      "email": "rinki9414@gmail.com"
-    },
-    {
-      "id": "rinki2",
-      "name": "Rinki",
-      "password": "test2",
-      "email": "rinki414@gmail.com"
-    },
-    {
-      "id": "puja",
-      "name": "Puja",
-      "password": "1234",
-      "email": "pujarinisahoo95@gmail.com"
-    },
-    {
       "id": "puja123",
       "name": "Pujarini",
       "password": "12345",
@@ -67,6 +49,32 @@
       "name": "admin103",
       "password": "test",
       "email": "asd@gmail.com"
+    },
+    {
+      "id": "puja12345",
+      "name": "Puja",
+      "password": "12345",
+      "email": "P@gmail.com"
+    }
+  ],
+  "cart": [
+    {
+      "category": "Saws & Chasers",
+      "name": "Xtra Power 2700W Input Power Wall Chaser XPT 418",
+      "image": "https://static1.industrybuying.com/products/power-tools/wall-chasers/POW.WAL.62076632_1668009929785.webp",
+      "by": "Xtra Power",
+      "price": "145000",
+      "discount": 0,
+      "id": 1
+    },
+    {
+      "category": "Saws & Chasers",
+      "name": "Omada 21V Metal Shear Cordless Tin Scissor OMD",
+      "image": "https://static1.industrybuying.com/products/power-tools/chain-saw/POW.CHA.97138210_1668385558636.webp",
+      "by": "Omada",
+      "price": 19800,
+      "discount": 37,
+      "id": 2
     }
   ],
   "powertools": [
@@ -323,42 +331,13 @@
       "id": 33
     },
     {
-      "category": "Drilling Machine",
-      "image": "https://static3.industrybuying.com/homepage/1646996966Furniture-7_130x74.png",
-      "name": "Miniature Circuit Breakers",
-      "by": "AgriPro",
-      "price": 5689,
-      "discount": "35",
-      "id": 34
-    }
-  ],
-  "cart": [
-    {
-      "category": "Saws & Chasers",
-      "name": "Voltz VZWC-200 Table Saw 800W Wood Table Saw of DIY",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/MAC.BAN.96508258_1668289599080.webp",
-      "by": "Voltz",
-      "price": "77800",
-      "discount": "20",
-      "id": 1
-    },
-    {
-      "category": "Saws & Chasers",
-      "name": "Ingco 220-240V 900-3300 RPM Reciprocating Saw RS8008",
-      "image": "https://static1.industrybuying.com/products/power-tools/saws/POW.SAW.83175023_1668054154698.webp",
-      "by": "Xtra Power",
-      "price": "3560",
-      "discount": 60,
-      "id": 2
-    },
-    {
-      "category": "Saws & Chasers",
-      "name": "Xtra Power 2700W Input Power Wall Chaser XPT 418",
-      "image": "https://static1.industrybuying.com/products/power-tools/wall-chasers/POW.WAL.62076632_1668009929785.webp",
-      "by": "Xtra Power",
-      "price": 14800,
-      "discount": 0,
-      "id": 3
+      "category": "Cleaning Tools",
+      "image": "https://static1.industrybuying.com/products/power-tools/pressure-washer/POW.PRE.52684798_1668029150593.webp",
+      "name": "Ingco HPWR14008 High Pressure Washer 1400W",
+      "by": "Ingco",
+      "price": "17500",
+      "discount": "10",
+      "id": 35
     }
   ]
 }

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { FaSearch, FaGooglePlay } from "react-icons/fa";
-
 import { TriangleDownIcon } from "@chakra-ui/icons";
-import { MdRoom } from "react-icons/md";
 import { BsCart2, BsApple } from "react-icons/bs";
+
 
 import "./Navbar.css";
 const Navbar = () => {
@@ -39,44 +38,8 @@ const Navbar = () => {
             <li className={`dropdown ${dropdownActive ? "active" : ""}`}>
               <button onClick={toggleDropdown}>
                 {" "}
-                All categery
-                <TriangleDownIcon />
+                Search
               </button>
-              <ul className="dropdown-content">
-                <li>
-                  <a href="#">Abrasives</a>
-                </li>
-                <li>
-                  <a href="#">Adhesive Seatlant and Tape</a>
-                </li>
-                <li>
-                  <a href="#">Application</a>
-                </li>
-                <li>
-                  <a href="#">Bearings</a>
-                </li>
-                <li>
-                  <a href="#">Cleanings</a>
-                </li>
-                <li>
-                  <a href="#">Coporate Gifts</a>
-                </li>
-                <li>
-                  <a href="#">Electirical</a>
-                </li>
-                <li>
-                  <a href="#">ELectrical &Robotics</a>
-                </li>
-                <li>
-                  <a href="#">Hand Tools</a>
-                </li>
-                <li>
-                  <a href="#">Hardwaer</a>
-                </li>
-                <li>
-                  <a href="#">Tooling and Cutting</a>
-                </li>
-              </ul>
             </li>
           </div>
           <input
@@ -99,16 +62,7 @@ const Navbar = () => {
                 <a href="/login">Sign In </a>
               </li>
               <li>
-                <a href="#">Pay Later</a>
-              </li>
-              <li>
                 <a href="/register">Register</a>
-              </li>
-              <li>
-                <a href="#">Quotaion</a>
-              </li>
-              <li>
-                <a href="#">Purchase List</a>
               </li>
               <li>
                 <a href="/product">Product</a>
@@ -125,12 +79,6 @@ const Navbar = () => {
 
         <div className="menu-container">
           <ul>
-            <li>
-              <a href="#">
-                <MdRoom />
-                Track Order
-              </a>
-            </li>
             <li>
               <a href="/cart">
                 <BsCart2 />
