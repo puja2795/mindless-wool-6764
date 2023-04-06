@@ -33,6 +33,7 @@ const Products = () => {
 
   useEffect(() => {
     dispatch(getData(obj));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.search]);
 
   return (
