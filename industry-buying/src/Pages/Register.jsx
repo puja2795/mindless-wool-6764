@@ -52,7 +52,7 @@ const Register = () => {
         let regobj = { id, name, password, email };
         if (IsValidate()) {
             //console.log(regobj);
-            fetch("http://localhost:8080/user", {
+            fetch("https://plum-quail-tam.cyclic.app/user", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regobj)

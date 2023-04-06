@@ -18,7 +18,7 @@ const Login = () => {
         if (validate()) {
             ///implentation
             // console.log('proceed');
-            fetch("http://localhost:8080/user/" + username).then((res) => {
+            fetch("https://plum-quail-tam.cyclic.app/user/" + username).then((res) => {
                 return res.json();
             }).then((resp) => {
                 //console.log(resp)

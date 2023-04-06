@@ -37,12 +37,12 @@ const ProductSideBar = () => {
    const handleManufacturer = (e) => {
        
       let newManfu = [...by];
-      let value = e.target.value;
+      let val = e.target.val;
 
-      if(newManfu.includes(value)){
-         newManfu.splice(newManfu.indexOf(value), 1);
+      if(newManfu.includes(val)){
+         newManfu.splice(newManfu.indexOf(val), 1);
       } else {
-         newManfu.push(value);
+         newManfu.push(val);
       }
 
       setBy(newManfu);
@@ -63,7 +63,7 @@ const ProductSideBar = () => {
       order && (params.order = order);
 
       setSearchParams(params);
-   },[category,order]);
+   },[category,order, setSearchParams]);
 
   return (
     <div id='filters'>

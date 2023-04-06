@@ -10,7 +10,6 @@ import {
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { store } from '../../Redux/store'
 import { CartItem } from './CartItem'
 import { CartOrderSummary } from './CartOrderSummary'
 // import { cartData } from './_data'
@@ -21,7 +20,7 @@ export const CartPage = () => {
   const finalcarttotal=useSelector(store=>store.productReducer.finaltotal);
 console.log(finalcarttotal)
   const getdata=()=>{
-   return axios.get("http://localhost:8080/cart")
+   return axios.get("https://plum-quail-tam.cyclic.app/cart")
     .then(res=>setcartdata(res.data))
   }
   useEffect(()=>{
