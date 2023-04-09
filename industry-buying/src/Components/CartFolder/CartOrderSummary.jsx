@@ -1,10 +1,5 @@
-import {
-    Button,
-    Flex,
-    Heading,
-    Link,
-    Stack,
-    Text,
+import { Button, Flex, Heading, Link, Stack,
+Text,
     useColorModeValue as mode,
   } from '@chakra-ui/react'
 import { useEffect, useState } from 'react';
@@ -32,7 +27,7 @@ import { useSelector } from 'react-redux';
     
 let fulltotaltotal =()=>{
   cartData.map((el)=>
-settotal((p)=>p+ el.price)
+settotal((p)=>p+ (+el.price))
 )}
 console.log(total)
 
