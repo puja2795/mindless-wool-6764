@@ -29,13 +29,13 @@ console.log(finalcarttotal)
 
   const onClickDelete=(id,price)=>{
   console.log(id)
-  axios.delete(`https://plum-quail-tam.cyclic.app/cart/${id}`);
+  axios.delete(`https://plum-quail-tam.cyclic.app/cart/${id}`)
   setcartdata(
      cartData.filter((post) => {
         return post.id !== id;
      })
   );
- settotal((p)=>p-price)
+//  settotal((p)=>p-price)
 }
 
 // let fulltotaltotal =()=>{
