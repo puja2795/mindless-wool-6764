@@ -25,12 +25,11 @@ console.log(finalcarttotal)
   }
   useEffect(()=>{
     getdata();
-    
   },[]);
 
   const onClickDelete=(id,price)=>{
   console.log(id)
-  axios.delete(`http://localhost:8080/cart/${id}`);
+  axios.delete(`https://plum-quail-tam.cyclic.app/cart/${id}`);
   setcartdata(
      cartData.filter((post) => {
         return post.id !== id;

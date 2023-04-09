@@ -39,29 +39,29 @@ const navigate=useNavigate();
 
             <div class="inputBox">
                 <span>full name :</span>
-                <input type="text"  onChange={(e)=>setName(e.target.value)} placeholder="john deo"/>
+                <input type="text"  onChange={(e)=>setName(e.target.value)} placeholder="john deo" required />
             </div>
             <div class="inputBox">
                 <span>email :</span>
-                <input type="email" placeholder="example@example.com"/>
+                <input type="email" placeholder="example@example.com" required/>
             </div>
             <div class="inputBox">
                 <span>address :</span>
-                <input type="text" placeholder="room - street - locality"/>
+                <input type="text" placeholder="room - street - locality" required/>
             </div>
             <div class="inputBox">
                 <span>city :</span>
-                <input type="text" placeholder="mumbai"/>
+                <input type="text" placeholder="mumbai" required/>
             </div>
 
             <div class="flex">
                 <div class="inputBox">
                     <span>state :</span>
-                    <input type="text" placeholder="india"/>
+                    <input type="text" placeholder="india" required/>
                 </div>
                 <div class="inputBox">
                     <span>zip code :</span>
-                    <input type="text" placeholder="123 456"/>
+                    <input type="text" placeholder="123 456" required/>
                 </div>
             </div>
 
@@ -77,25 +77,25 @@ const navigate=useNavigate();
             </div>
             <div class="inputBox">
                 <span>name on card :</span>
-                <input type="text" placeholder="mr. john deo"/>
+                <input type="text" placeholder="mr. john deo" required/>
             </div>
             <div class="inputBox">
                 <span>credit card number :</span>
-                <input type="number" placeholder="1111-2222-3333-4444"/>
+                <input type="number" placeholder="1111-2222-3333-4444" required/>
             </div>
             <div class="inputBox">
-                <span>exp month :</span>
-                <input type="text" placeholder="january"/>
+                <span>Valid Upto :</span>
+                <input type="text" placeholder="january" required/>
             </div>
 
             <div class="flex">
                 <div class="inputBox">
                     <span>exp year :</span>
-                    <input type="number" placeholder="2022"/>
+                    <input type="number" placeholder="2022" required/>
                 </div>
                 <div class="inputBox">
                     <span>CVV :</span>
-                    <input type="text" placeholder="1234"/>
+                    <input type="text" placeholder="1234" required/>
                 </div>
             </div>
 
